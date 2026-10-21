@@ -65,7 +65,7 @@
     <div id="quote">
       <h2>Get a quote</h2>
       <p class="muted">Tell us what you need and where. We reply by phone or email, usually the same day.</p>
-      <form class="form" name="quote" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="company">
+      <form class="form" name="quote" method="POST" action="/api/quote" data-netlify="true" netlify-honeypot="company">
         <input type="hidden" name="form-name" value="quote">
         <p class="sr-only" aria-hidden="true"><label>Don't fill this out: <input name="company" tabindex="-1" autocomplete="off"></label></p>
         <div class="field"><label for="f-name">Name *</label><input id="f-name" name="name" type="text" required autocomplete="name"></div>

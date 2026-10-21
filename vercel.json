@@ -1,0 +1,2543 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "site",
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/trench-mesh-mount-waverley",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/trench-mesh-mount-waverley/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-malvern-east",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-malvern-east/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-and-top-dressing-kew",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-and-top-dressing-kew/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/tennis-court-sand-glen-waverley",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/tennis-court-sand-glen-waverley/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-bars-in-camberwell",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-bars-in-camberwell/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/shape-scaper-camberwell",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/shape-scaper-camberwell/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tan-bark-blackburn",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tan-bark-blackburn/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/paking-sand-in-richmond",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/paking-sand-in-richmond/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-doncaster",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-doncaster/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-box-mont-albert",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-box-mont-albert/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-lime-park-orchards",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-lime-park-orchards/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-donvale",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-donvale/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-mount-waverley",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-mount-waverley/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/fake-grass-hawthorn",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/fake-grass-hawthorn/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-sand-in-chadstone",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-sand-in-chadstone/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-in-burwood",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-in-burwood/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-blocks-in-blackburn-south",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-blocks-in-blackburn-south/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-caulfield",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-caulfield/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-blackburn-south",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-blackburn-south/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/blockwork-in-burwood",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/blockwork-in-burwood/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand-in-doncaster",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand-in-doncaster/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/trench-mesh-kew",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/trench-mesh-kew/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-burwood-east",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-burwood-east/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-blackburn-north",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-blackburn-north/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-eaglemont",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-eaglemont/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-bars-in-glen-waverley",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/starter-bars-in-glen-waverley/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/soil-in-bentleigh",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/soil-in-bentleigh/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-mount-waverley",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-mount-waverley/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-burwood-east",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-burwood-east/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-loam-vermont",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-loam-vermont/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/road-base-balwyn-north",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/road-base-balwyn-north/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-bark-hawthorn-east",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-bark-hawthorn-east/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-toorak",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-toorak/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-mont-albert",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-mont-albert/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-burwood",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-burwood/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-soil-ormand",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-soil-ormand/",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-templestowe",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-templestowe/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-surrey-hills",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-surrey-hills/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-blackburn-north",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-blackburn-north/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-liime-mount-waverley",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-liime-mount-waverley/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-lime-camberwell",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/liquid-lime-camberwell/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/gravel-nunuwading",
+      "destination": "/rock-and-stone/",
+      "permanent": true
+    },
+    {
+      "source": "/gravel-nunuwading/",
+      "destination": "/rock-and-stone/",
+      "permanent": true
+    },
+    {
+      "source": "/gibco-camberwell",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/gibco-camberwell/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-box-hill-2",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-box-hill-2/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-caulfield-north-2",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-caulfield-north-2/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-malvern-east",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-malvern-east/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-kew",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-soil-kew/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-camberwell",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-camberwell/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-box-hill-north",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-edging-box-hill-north/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/drainage-supplies-glen-iris",
+      "destination": "/drainage/",
+      "permanent": true
+    },
+    {
+      "source": "/drainage-supplies-glen-iris/",
+      "destination": "/drainage/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-elwood",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-elwood/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-eltham",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-eltham/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-camberwell",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-camberwell/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-abbortsford",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-abbortsford/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/coreflute-sheets-glen-waverley",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/coreflute-sheets-glen-waverley/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/core-fill-concrete-blocks-malvern",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/core-fill-concrete-blocks-malvern/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-ashburton",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-ashburton/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/carnegie-mulch",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/carnegie-mulch/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-kew",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-kew/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-blackburn",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-blackburn/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-ashburton",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-ashburton/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-richmond",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-richmond/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-mount-waverley",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-mount-waverley/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-heidelberg",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-heidelberg/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-camberwell",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-camberwell/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil-albert-park",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil-albert-park/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/black-mulch-camberwell",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/black-mulch-camberwell/",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-mont-albert",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-mont-albert/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-chadstone",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/top-soil-in-chadstone/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-chadstone",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-chadstone/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-caulfield-north",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-caulfield-north/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/everedge-edging-hawthorn",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/everedge-edging-hawthorn/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-doncaster",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-doncaster/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mesh-templestowe",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mesh-templestowe/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/compost-mulch-in-canterbury",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/compost-mulch-in-canterbury/",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-glen-waverley",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-glen-waverley/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashwood-2",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashwood-2/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-vermont",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-vermont/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-doncaster",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-doncaster/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand-glen-iris",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand-glen-iris/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand-doncaster",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand-doncaster/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-kew",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-kew/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-burwood",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-burwood/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-in-balwyn",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-in-balwyn/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/screenings-prahran",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/screenings-prahran/",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-mont-albert",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-mont-albert/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-burwood-east",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-burwood-east/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-blackburn",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-blackburn/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/fake-grass-in-fairfield",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/fake-grass-in-fairfield/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-2",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-2/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-in-malvern",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-in-malvern/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-mont-albert",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-mont-albert/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-forest-hill",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-forest-hill/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-burwood",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-supplies-burwood/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-bulleen",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-bulleen/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/astro-turf-in-glen-iris",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/astro-turf-in-glen-iris/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-nunawading",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-nunawading/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/playground-mulch-east-malvern",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/playground-mulch-east-malvern/",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/star-pickets-ashburton",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/star-pickets-ashburton/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/stabilised-crushed-rock-malvern-east",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/stabilised-crushed-rock-malvern-east/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-balwyn",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-balwyn/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-loam-mt-waverley",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-loam-mt-waverley/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/richmond-bright-and-light",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/richmond-bright-and-light/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/reinforcing-mesh-box-hill-north",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/reinforcing-mesh-box-hill-north/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/playground-mulch-blackburn-north",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/playground-mulch-blackburn-north/",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/lilydale-toppings-forrest-hill",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/lilydale-toppings-forrest-hill/",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-box-hill",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-box-hill/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/gap-sand-ashwood",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/gap-sand-ashwood/",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/driveway-toppings-glen-waverely",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/driveway-toppings-glen-waverely/",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/coreflute-sheets-nunawading",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/coreflute-sheets-nunawading/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/coloured-mulch-in-malvern-east",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/coloured-mulch-in-malvern-east/",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/builders-plastic-surrey-hills",
+      "destination": "/concrete-products/plastic/",
+      "permanent": true
+    },
+    {
+      "source": "/builders-plastic-surrey-hills/",
+      "destination": "/concrete-products/plastic/",
+      "permanent": true
+    },
+    {
+      "source": "/besser-blocks-blackburn-south",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/besser-blocks-blackburn-south/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/aggregate-glen-iris",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/aggregate-glen-iris/",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tan-bark-mont-albert",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tan-bark-mont-albert/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/retaining-wall-sleeper-steel-kew",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/retaining-wall-sleeper-steel-kew/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/road-base-canterbury",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/road-base-canterbury/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-san-toorak",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-san-toorak/",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/expansion-foam-doncaster",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/expansion-foam-doncaster/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-or-washed-sand-brighton",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-or-washed-sand-brighton/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/soil-in-camberwell",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/soil-in-camberwell/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-box-hill",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-box-hill/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/mortar-balwyn-north",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/mortar-balwyn-north/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf-mount-waverly",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf-mount-waverly/",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-burwood",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-burwood/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-glen-huntly",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-glen-huntly/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/rapid-set-cement-mckinnon",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/rapid-set-cement-mckinnon/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-hampton",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/synthetic-grass-hampton/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand-oakleigh",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand-oakleigh/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-grass-benleigh",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-grass-benleigh/",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-carnegie",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-carnegie/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-chadstone",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/treated-pine-sleepers-chadstone/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-products-eaglemont",
+      "destination": "/concrete-products/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-products-eaglemont/",
+      "destination": "/concrete-products/",
+      "permanent": true
+    },
+    {
+      "source": "/buffalo-turf-murrumbeena",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/buffalo-turf-murrumbeena/",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/pavers-elwood",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/pavers-elwood/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/bluestone-st-kilda",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/bluestone-st-kilda/",
+      "destination": "/building-materials/building-products/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-sand-2",
+      "destination": "/blog/kiln-dried-sand-applications/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-sand-2/",
+      "destination": "/blog/kiln-dried-sand-applications/",
+      "permanent": true
+    },
+    {
+      "source": "/lilydale-toppings-bulleen",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/lilydale-toppings-bulleen/",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/drainage-products-in-south-yarra",
+      "destination": "/drainage/",
+      "permanent": true
+    },
+    {
+      "source": "/drainage-products-in-south-yarra/",
+      "destination": "/drainage/",
+      "permanent": true
+    },
+    {
+      "source": "/bricklaying-tools-doncaster-east",
+      "destination": "/tool-shop/tools/",
+      "permanent": true
+    },
+    {
+      "source": "/bricklaying-tools-doncaster-east/",
+      "destination": "/tool-shop/tools/",
+      "permanent": true
+    },
+    {
+      "source": "/1-4-minus-in-collingwood",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/1-4-minus-in-collingwood/",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-malvern",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/brick-sand-malvern/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-glen-waverley",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/general-purpose-cement-glen-waverley/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/off-white-cement-nunawading",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/off-white-cement-nunawading/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-pine-mont-albert-north",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/tan-bark-pine-mont-albert-north/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/richmond-washed-sand",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/richmond-washed-sand/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscan-toppings-mount-waverly",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscan-toppings-mount-waverly/",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf-box-hill-north",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf-box-hill-north/",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-hawthorn",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock-hawthorn/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil-box-hill-south",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil-box-hill-south/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-blackburn-north",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-in-blackburn-north/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/screenings-ashwood",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/screenings-ashwood/",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/premium-organic-soil-ashburton",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/premium-organic-soil-ashburton/",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-forrest-hill",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria-forrest-hill/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-mulch-surrey-hills",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-mulch-surrey-hills/",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/crusher-dust-malvern-east",
+      "destination": "/rock-and-stone/crusher-dust/",
+      "permanent": true
+    },
+    {
+      "source": "/crusher-dust-malvern-east/",
+      "destination": "/rock-and-stone/crusher-dust/",
+      "permanent": true
+    },
+    {
+      "source": "/black-mulch-glen-iris",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/black-mulch-glen-iris/",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tank-bark-balwyn",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/pine-tank-bark-balwyn/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/toorak-mulch",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/toorak-mulch/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-canterbury",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/packing-sand-in-canterbury/",
+      "destination": "/sand/",
+      "permanent": true
+    },
+    {
+      "source": "/kew-kiln-dried-sand",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/kew-kiln-dried-sand/",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/deepdene-washed-sand",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/deepdene-washed-sand/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-sand-in-doncaster",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-sand-in-doncaster/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/mont-albert-triple-washed-sand",
+      "destination": "/sand/triple-washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/mont-albert-triple-washed-sand/",
+      "destination": "/sand/triple-washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/burwood-crushed-rock",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/burwood-crushed-rock/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/camberwell-soil",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/camberwell-soil/",
+      "destination": "/soil/",
+      "permanent": true
+    },
+    {
+      "source": "/blackburn-mulch",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/blackburn-mulch/",
+      "destination": "/mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/box-hill-brick-sand",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/box-hill-brick-sand/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/balwyn-north-crushed-rock",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/balwyn-north-crushed-rock/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/what-kind-of-sand-to-use",
+      "destination": "/blog/what-kind-of-sand-to-use/",
+      "permanent": true
+    },
+    {
+      "source": "/what-kind-of-sand-to-use/",
+      "destination": "/blog/what-kind-of-sand-to-use/",
+      "permanent": true
+    },
+    {
+      "source": "/which-mulch-do-i-use-around-my-home",
+      "destination": "/blog/which-mulch-do-i-use-around-my-home/",
+      "permanent": true
+    },
+    {
+      "source": "/which-mulch-do-i-use-around-my-home/",
+      "destination": "/blog/which-mulch-do-i-use-around-my-home/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-malvern",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-malvern/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashwood",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashwood/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-doncaster",
+      "destination": "/areas/doncaster/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-doncaster/",
+      "destination": "/areas/doncaster/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashburton",
+      "destination": "/areas/ashburton/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-ashburton/",
+      "destination": "/areas/ashburton/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-toorak",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-toorak/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-glen-waverley",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-glen-waverley/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-doncaster-east",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-doncaster-east/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-nunawading",
+      "destination": "/areas/nunawading/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-nunawading/",
+      "destination": "/areas/nunawading/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-south-yarra",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-south-yarra/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-richmond",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-richmond/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-vermont",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-vermont/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-templestowe",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-templestowe/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-deepdene",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-deepdene/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-burwood",
+      "destination": "/areas/burwood/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-burwood/",
+      "destination": "/areas/burwood/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-kew",
+      "destination": "/areas/kew/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-kew/",
+      "destination": "/areas/kew/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-glen-iris",
+      "destination": "/areas/glen-iris/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-glen-iris/",
+      "destination": "/areas/glen-iris/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-mount-waverley",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-mount-waverley/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-malvern-east",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-malvern-east/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-balwyn",
+      "destination": "/areas/balwyn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-balwyn/",
+      "destination": "/areas/balwyn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-box-hill",
+      "destination": "/areas/box-hill/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-box-hill/",
+      "destination": "/areas/box-hill/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-canterbury",
+      "destination": "/areas/canterbury/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-canterbury/",
+      "destination": "/areas/canterbury/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-hawthorn",
+      "destination": "/areas/hawthorn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-hawthorn/",
+      "destination": "/areas/hawthorn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-mont-albert",
+      "destination": "/areas/mont-albert/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-mont-albert/",
+      "destination": "/areas/mont-albert/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-surrey-hills",
+      "destination": "/areas/surrey-hills/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-surrey-hills/",
+      "destination": "/areas/surrey-hills/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-balwyn-north",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-balwyn-north/",
+      "destination": "/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-blackburn",
+      "destination": "/areas/blackburn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-blackburn/",
+      "destination": "/areas/blackburn/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-camberwell",
+      "destination": "/areas/camberwell/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-supplies-in-camberwell/",
+      "destination": "/areas/camberwell/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-products",
+      "destination": "/blog/mulch-products/",
+      "permanent": true
+    },
+    {
+      "source": "/mulch-products/",
+      "destination": "/blog/mulch-products/",
+      "permanent": true
+    },
+    {
+      "source": "/what-soil-for-a-vegetable-garden",
+      "destination": "/blog/what-soil-for-a-vegetable-garden/",
+      "permanent": true
+    },
+    {
+      "source": "/what-soil-for-a-vegetable-garden/",
+      "destination": "/blog/what-soil-for-a-vegetable-garden/",
+      "permanent": true
+    },
+    {
+      "source": "/low-maintenance-garden",
+      "destination": "/blog/low-maintenance-garden/",
+      "permanent": true
+    },
+    {
+      "source": "/low-maintenance-garden/",
+      "destination": "/blog/low-maintenance-garden/",
+      "permanent": true
+    },
+    {
+      "source": "/large-rubble-rock",
+      "destination": "/rock-and-stone/large-rubble-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/large-rubble-rock/",
+      "destination": "/rock-and-stone/large-rubble-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/miscellaneous-items",
+      "destination": "/tool-shop/miscellaneous-items/",
+      "permanent": true
+    },
+    {
+      "source": "/miscellaneous-items/",
+      "destination": "/tool-shop/miscellaneous-items/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-bags",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix-bags/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/edging",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/edging/",
+      "destination": "/grass/lawn-edging/",
+      "permanent": true
+    },
+    {
+      "source": "/lawn-care",
+      "destination": "/grass/",
+      "permanent": true
+    },
+    {
+      "source": "/lawn-care/",
+      "destination": "/grass/",
+      "permanent": true
+    },
+    {
+      "source": "/fertilizers",
+      "destination": "/tool-shop/garden-products/",
+      "permanent": true
+    },
+    {
+      "source": "/fertilizers/",
+      "destination": "/tool-shop/garden-products/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/instant-turf/",
+      "destination": "/grass/instant-turf/",
+      "permanent": true
+    },
+    {
+      "source": "/seed",
+      "destination": "/grass/lawn-seed/",
+      "permanent": true
+    },
+    {
+      "source": "/seed/",
+      "destination": "/grass/lawn-seed/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-items",
+      "destination": "/grass/artificial-grass-items/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-grass-items/",
+      "destination": "/grass/artificial-grass-items/",
+      "permanent": true
+    },
+    {
+      "source": "/building-products",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/building-products/",
+      "destination": "/building-materials/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-products",
+      "destination": "/tool-shop/garden-products/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-products/",
+      "destination": "/tool-shop/garden-products/",
+      "permanent": true
+    },
+    {
+      "source": "/safety-products",
+      "destination": "/tool-shop/safety-products/",
+      "permanent": true
+    },
+    {
+      "source": "/safety-products/",
+      "destination": "/tool-shop/safety-products/",
+      "permanent": true
+    },
+    {
+      "source": "/smart-grass",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/smart-grass/",
+      "destination": "/grass/smart-grass/",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/tool-shop/",
+      "permanent": true
+    },
+    {
+      "source": "/tools/",
+      "destination": "/tool-shop/",
+      "permanent": true
+    },
+    {
+      "source": "/bar-chairs",
+      "destination": "/concrete-products/bar-chairs/",
+      "permanent": true
+    },
+    {
+      "source": "/bar-chairs/",
+      "destination": "/concrete-products/bar-chairs/",
+      "permanent": true
+    },
+    {
+      "source": "/plastic",
+      "destination": "/concrete-products/plastic/",
+      "permanent": true
+    },
+    {
+      "source": "/plastic/",
+      "destination": "/concrete-products/plastic/",
+      "permanent": true
+    },
+    {
+      "source": "/additives",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/additives/",
+      "destination": "/concrete-products/additives/",
+      "permanent": true
+    },
+    {
+      "source": "/steel",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/steel/",
+      "destination": "/concrete-products/steel/",
+      "permanent": true
+    },
+    {
+      "source": "/cement",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/cement/",
+      "destination": "/concrete-products/cement/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/concrete-mix/",
+      "destination": "/concrete-products/concrete-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/eco-base-crusher-dust",
+      "destination": "/rock-and-stone/crusher-dust/",
+      "permanent": true
+    },
+    {
+      "source": "/eco-base-crusher-dust/",
+      "destination": "/rock-and-stone/crusher-dust/",
+      "permanent": true
+    },
+    {
+      "source": "/7mm-aggregate",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/7mm-aggregate/",
+      "destination": "/rock-and-stone/7mm-aggregate/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/scoria/",
+      "destination": "/rock-and-stone/scoria/",
+      "permanent": true
+    },
+    {
+      "source": "/14mm-screenings",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/14mm-screenings/",
+      "destination": "/rock-and-stone/14mm-screenings/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscan-toppings",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscan-toppings/",
+      "destination": "/rock-and-stone/tuscan-toppings/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/crushed-rock/",
+      "destination": "/rock-and-stone/crushed-rock/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-sand",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/kiln-dried-sand/",
+      "destination": "/sand/kiln-dried-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/tripple-washed-sand",
+      "destination": "/sand/triple-washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/tripple-washed-sand/",
+      "destination": "/sand/triple-washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/washed-sand/",
+      "destination": "/sand/washed-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/white-brick-sand/",
+      "destination": "/sand/white-brick-sand/",
+      "permanent": true
+    },
+    {
+      "source": "/native-garden-mix",
+      "destination": "/soil/native-garden-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/native-garden-mix/",
+      "destination": "/soil/native-garden-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/blended-soil/",
+      "destination": "/soil/blended-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-play",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-play/",
+      "destination": "/mulch/soft-play-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/premium-organic-soil",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/premium-organic-soil/",
+      "destination": "/soil/premium-organic-soil/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-mulch",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/organic-mulch/",
+      "destination": "/mulch/organic-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/black-midnight-mulch",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/black-midnight-mulch/",
+      "destination": "/mulch/black-midnight-mulch/",
+      "permanent": true
+    },
+    {
+      "source": "/20mm-pine-bark",
+      "destination": "/mulch/20mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/20mm-pine-bark/",
+      "destination": "/mulch/20mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/10mm-pine-bark",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/10mm-pine-bark/",
+      "destination": "/mulch/10mm-pine-bark/",
+      "permanent": true
+    },
+    {
+      "source": "/example",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/example/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sample-page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sample-page/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/:path*",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/order/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/order",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/author/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

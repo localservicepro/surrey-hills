@@ -104,6 +104,35 @@ const toml = `# Surrey Hills Garden Supplies — Netlify config (generated redir
 }).join('\n');
 fs.writeFileSync(path.join(root, 'netlify.toml'), toml);
 
+// vercel.json — same map for Vercel (redirects applied before trailing-slash normalisation; www/http handled by Vercel)
+const vredirects = [];
+for (const r of rows) {
+  if (r.to === r.from + '/') continue;
+  if (r.from.endsWith('/*')) { vredirects.push({ source: r.from.replace(/\/\*$/, '/:path*'), destination: r.to, permanent: true }); continue; }
+  if (r.from === '/' || r.from === '/home') { if (r.from === '/home') { vredirects.push({ source: '/home', destination: '/', permanent: true }); vredirects.push({ source: '/home/', destination: '/', permanent: true }); } continue; }
+  vredirects.push({ source: r.from, destination: r.to, permanent: true });
+  vredirects.push({ source: r.from + '/', destination: r.to, permanent: true });
+}
+const vercel = {
+  $schema: 'https://openapi.vercel.sh/vercel.json',
+  buildCommand: 'npm run build',
+  outputDirectory: 'site',
+  trailingSlash: true,
+  cleanUrls: false,
+  redirects: vredirects,
+  headers: [
+    { source: '/(.*)', headers: [
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' }, { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }, { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' } ] },
+    { source: '/assets/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] },
+    { source: '/order/(.*)', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] },
+    { source: '/order', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] },
+    { source: '/author/(.*)', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }
+  ]
+};
+fs.writeFileSync(path.join(root, 'vercel.json'), JSON.stringify(vercel, null, 2) + '\n');
+console.log('vercel.json redirects:', vredirects.length);
+
 const counts = rows.reduce((a, r) => { const k = r.rule.split(':')[0]; a[k] = (a[k] || 0) + 1; return a; }, {});
 console.log(`redirects: ${rows.length} rows`, counts);
 const fallbacks = rows.filter(r => r.rule === 'fallback').map(r => r.from);
