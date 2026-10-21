@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://surreyhillsgardensupplies.com.au/order-schema.json",
+  "title": "SHGS website order payload",
+  "description": "Shape of an order submitted from /order/ (Phase 3). Defined now so the Swift Dispatch integration does not change page structure or URLs. Prices are not included in the payload; dispatch prices the order from its own product list keyed by productSlug.",
+  "type": "object",
+  "required": ["lines", "fulfilment", "customer", "source"],
+  "properties": {
+    "lines": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["productSlug", "format", "quantity"],
+        "properties": {
+          "productSlug": { "type": "string", "description": "Slug from data/products.json, e.g. 10mm-pine-bark", "pattern": "^[a-z0-9-]+$" },
+          "format": { "type": "string", "enum": ["bag15", "bag20", "bulkerBag", "bulkM3"], "description": "bag15 = 15kg bag, bag20 = 20kg bag, bulkerBag = 1-tonne bulker bag, bulkM3 = bulk by cubic metre" },
+          "quantity": { "type": "number", "exclusiveMinimum": 0, "description": "Bags / bulker bags as integers; bulkM3 in cubic metres, multiples of 0.25" }
+        }
+      }
+    },
+    "fulfilment": { "type": "string", "enum": ["delivery", "pickup", "byoTrailer"] },
+    "deliveryAddress": { "type": "string", "description": "Required when fulfilment = delivery" },
+    "suburb": { "type": "string", "description": "Delivery suburb (name as in data/suburbs.json where possible)" },
+    "preferredDate": { "type": "string", "format": "date", "description": "YYYY-MM-DD" },
+    "customer": {
+      "type": "object",
+      "required": ["name", "phone"],
+      "properties": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string", "format": "email" }
+      }
+    },
+    "notes": { "type": "string" },
+    "source": { "type": "string", "const": "website" }
+  },
+  "examples": [
+    {
+      "lines": [
+        { "productSlug": "10mm-pine-bark", "format": "bulkM3", "quantity": 2.5 },
+        { "productSlug": "kiln-dried-sand", "format": "bag20", "quantity": 4 }
+      ],
+      "fulfilment": "delivery",
+      "deliveryAddress": "12 Example Street",
+      "suburb": "Box Hill",
+      "preferredDate": "2026-11-03",
+      "customer": { "name": "A. Customer", "phone": "0400 000 000", "email": "customer@example.com" },
+      "notes": "Tip on the nature strip, left of the driveway.",
+      "source": "website"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Surrey Hills Garden Supplies — design tokens
+   Logo colours sampled from Surrey-Hills-1.png (476×120). The logo contains
+   exactly two colours: green #8CC73F and white #FFFFFF. It has no dark neutral,
+   so the dark base below is sampled from the product photos (soil / bluestone).
+   Earth neutrals sampled from the product photos (bark, sand, scoria, bluestone).
+   ========================================================================== */
+:root {
+  /* Logo */
+  --c-green: #8cc73f;        /* logo green — primary action colour */
+  --c-green-dark: #6ea52a;   /* hover/pressed (darkened logo green, not a new hue) */
+  --c-green-tint: #eef7e1;   /* 10% tint for highlights */
+  --c-green-text: #3f6a12;   /* AA-contrast green for small text/links on white (logo green hue, darkened) */
+  --c-white: #ffffff;
+
+  /* Dark neutral base (sampled: soil photo #171209, bluestone #494741) */
+  --c-ink: #171a14;          /* headings, footer, hero overlay */
+  --c-ink-2: #2b2e27;
+  --c-ink-3: #494741;        /* bluestone grey — borders on dark */
+
+  /* Light neutrals */
+  --c-offwhite: #f5f3ee;     /* alternating sections */
+  --c-paper: #fbfaf7;
+  --c-line: #e3e0d8;
+
+  /* Earth neutrals — supporting only */
+  --c-bark: #523027;         /* pine bark */
+  --c-bark-light: #936b54;
+  --c-sand: #ede4d3;
+  --c-sand-deep: #b38d5f;
+  --c-bluestone: #7e7a72;
+  --c-scoria: #997668;
+
+  /* Text */
+  --t-body: #2b2e27;
+  --t-muted: #5f635a;
+  --t-on-dark: #f5f3ee;
+  --t-on-dark-muted: #b9bcb2;
+
+  /* Type */
+  --f-head: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Scale */
+  --fs-h1: clamp(2.2rem, 1.2rem + 4.2vw, 4rem);
+  --fs-h2: clamp(1.7rem, 1.1rem + 2.4vw, 2.6rem);
+  --fs-h3: clamp(1.2rem, 1rem + 0.8vw, 1.45rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  /* Layout */
+  --max: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --radius: 10px;
+  --radius-lg: 16px;
+  --shadow: 0 2px 6px rgba(23, 26, 20, .06), 0 12px 32px rgba(23, 26, 20, .08);
+  --shadow-hover: 0 6px 16px rgba(23, 26, 20, .10), 0 24px 48px rgba(23, 26, 20, .14);
+
+  /* Motif */
+  --cut: 4vw;                /* diagonal "tipped load" cut height */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --dur: .5s;
+}

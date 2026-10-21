@@ -1,0 +1,17 @@
+{
+  "name": "surrey-hills-garden-supplies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for Surrey Hills Garden Supplies — generated from /data by scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "redirects": "node scripts/build-redirects.js",
+    "images": "node scripts/images.js",
+    "fetch-images": "node scripts/fetch-images.js",
+    "check-redirects": "node scripts/check-redirects.js",
+    "serve": "npx http-server site -p 8080 -c-1",
+    "lighthouse": "node scripts/lighthouse.js"
+  },
+  "engines": { "node": ">=18" },
+  "optionalDependencies": { "sharp": "^0.33.5" }
+}

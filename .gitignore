@@ -1,0 +1,9 @@
+node_modules/
+.netlify/
+.DS_Store
+*.log
+lighthouse/*.html
+lighthouse/*.json
+lighthouse/recheck/
+lighthouse/run.log
+lighthouse/shots/*.png
