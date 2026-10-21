@@ -41,7 +41,7 @@ Every product's `prices` object in `data/products.json` is `null`, which renders
 13. **Social URLs** use the handles from the old site (`facebook.com/surreyhillsgardensupplies`, `instagram.com/surreyhillsgardensupplies`); confirm both profiles exist.
 14. **Quote form** uses Netlify Forms (`data-netlify="true"`, honeypot field). Set the notification email in the Netlify dashboard after the first deploy. If the site is not on Netlify, point the form at another handler.
 15. **Map embeds** use a keyless Google Maps embed by address query. Works without an API key; swap for the GBP "embed a map" iframe once the GBP URL is supplied.
-16. **Hero video** (`assets/video/hero.mp4`, 5 s, 1280×720, 0.75 MB, muted loop) was generated with Higgsfield Kling 3.0 from the branded yard still. It is illustrative (AI-generated truck decal and yard) and should be replaced with real footage of the yard. It plays on screens ≥700px wide; phones, reduced-motion and data-saver users get the still. To swap it, replace `hero.mp4` (keep it under 4 MB, H.264, no audio) and rebuild.
+16. **Hero video** (`assets/video/hero.mp4`, 5 s, 1280×720, 0.75 MB, muted loop) was generated with Higgsfield Kling 3.0 from the branded yard still. It is illustrative (AI-generated truck decal and yard) and should be replaced with real footage of the yard. A WebM (VP9) copy sits beside it. The `<video>` is injected by `main.js` only on screens ≥700px wide after page load; phones, reduced-motion and data-saver users get the still, which keeps mobile Lighthouse at 95. To swap it, replace `hero.mp4` (and `hero.webm` if you have one; keep each under 4 MB, no audio) and rebuild.
 17. **Old-site product photos.** 73 product photos were carried over from the current website (most are 500×500 px). They are fine for cards and galleries but soft as full-width heroes; replace with new yard photos when possible. Six "category" photos in the client's Drive folder (mulch, sand, soil, cement, scoria, turf) carry a "Picture Partners" stock-photo copyright tag in their EXIF; they are the same images the old site used. Confirm the licence or replace with yard photos.
 
 ## 4. Brand colours sampled from the logo
@@ -68,7 +68,12 @@ The client's Drive folder contained no truck, loader, bagging or delivery photos
 
 | File (assets/img/products/…) | Used on | Replace with |
 |---|---|---|
-| `gen-hero-yard` | Home hero | wide photo of the real yard |
+| `gen-brand-yard` | Home hero still and video poster | wide photo of the real yard with a real SHGS truck |
+| `gen-brand-storefront` | Home "Why Surrey Hills" | photo of the real Canterbury Road entrance (generated signage is illustrative) |
+| `gen-brand-trucks` | Home "How we deliver" main photo | SHGS's real truck and trailer |
+| `gen-brand-bags` | Home "How we deliver" small photo | the real bagging shed |
+| `hero.mp4` / `hero.webm` (assets/video) | Home hero loop | real footage of the yard |
+| `gen-hero-yard` | spare (previous hero) | wide photo of the real yard |
 | `gen-tipper-delivery` | Home "how we deliver", /areas/ hero, every suburb page hero | SHGS truck tipping a load |
 | `gen-loader-trailer` | /delivery/ hero, /about/ | loader filling a trailer at the yard |
 | `gen-bags-15kg` | /calculator/ hero | bagged product at the yard |

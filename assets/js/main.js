@@ -73,12 +73,23 @@
     });
   }
 
-  /* Hero video: only play if connection is decent and motion allowed */
-  var hv = document.querySelector('.hero__media video');
-  if (hv) {
+  /* Hero video: injected only on wide screens, after load, and never for reduced-motion / data-saver users.
+     Phones get the still (keeps the mobile LCP small). */
+  var hm = document.querySelector('.hero__media[data-video-mp4]');
+  if (hm) {
     var conn = navigator.connection || {};
-    if (reduce || conn.saveData || /2g/.test(conn.effectiveType || '') || window.innerWidth < 700) { hv.removeAttribute('autoplay'); hv.pause(); hv.style.display = 'none'; }
-    else { hv.play && hv.play().catch(function () {}); }
+    var ok = !reduce && !conn.saveData && !/2g/.test(conn.effectiveType || '') && window.innerWidth >= 700;
+    if (ok) {
+      var inject = function () {
+        var v = document.createElement('video');
+        v.className = 'hero__video'; v.muted = true; v.loop = true; v.playsInline = true; v.autoplay = true; v.setAttribute('aria-hidden', 'true'); v.preload = 'auto';
+        if (hm.getAttribute('data-video-webm')) { var sw = document.createElement('source'); sw.src = hm.getAttribute('data-video-webm'); sw.type = 'video/webm'; v.appendChild(sw); }
+        var sm = document.createElement('source'); sm.src = hm.getAttribute('data-video-mp4'); sm.type = 'video/mp4'; v.appendChild(sm);
+        v.addEventListener('playing', function () { hm.classList.add('hero__media--video'); });
+        hm.appendChild(v); var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
+      };
+      if (document.readyState === 'complete') setTimeout(inject, 300); else window.addEventListener('load', function () { setTimeout(inject, 300); });
+    }
   }
 
   /* Contact form: prefill from ?product=&qty= and keep Netlify happy */

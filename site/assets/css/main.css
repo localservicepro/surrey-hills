@@ -378,7 +378,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* Hero: slow Ken Burns on the still; video when present */
 .hero__kb { animation: kenburns 18s ease-in-out infinite alternate; transform-origin: 60% 40%; }
 @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08); } }
-.hero__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.2s ease; }
+.hero__media--video .hero__video { opacity: 1; }
+.hero__media--video .hero__kb { animation: none; }
 
 /* Steps infographic */
 .how { display: grid; gap: 2rem; align-items: start; }

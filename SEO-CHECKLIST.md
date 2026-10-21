@@ -160,6 +160,13 @@ Re-check after the tuning pass (mobile):
 | /mulch/ | 98 | 96 | 100 | 100 | 2.3 s |
 | /mulch/10mm-pine-bark/ | 94 → 99 (after reveal-animation change) | 97 → 100 | 100 | 100 | 2.9 s |
 
+Home page after the layout rework (branded imagery, hero video injected by JS on screens ≥700px only, steps infographic, stats band, coverage chart):
+
+| Page | Form | Perf | A11y | Best | SEO | LCP |
+|---|---|---|---|---|---|---|
+| / | mobile | 95 | 100 | 100 | 100 | 2.6 s |
+| / | desktop | 100 | 100 | 100 | 100 | 0.6 s |
+
 Targets (Performance ≥90 mobile, SEO 100, Accessibility ≥95, Best Practices ≥95) are met on every page tested. Remaining Lighthouse notes are environmental: the local server sends `Cache-Control: no-store` (bf-cache), and the Google Maps iframe is blocked in the build sandbox. Re-run against the Netlify preview URL before launch: `node scripts/lighthouse.js https://<preview>.netlify.app`.
 
 ## Still to do before launch (see PLACEHOLDERS.md)

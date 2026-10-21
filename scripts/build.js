@@ -206,8 +206,9 @@ function calcProductsJson() {
 function hero(opts) {
   const { h1, sub, text, imgBase, imgAlt, ctas, badges, page, crumbs } = opts;
   const r = resolveImg(imgBase) || resolveImg('yard-01');
-  const video = (opts.video && fs.existsSync(path.join(root, 'assets/video/hero.mp4'))) ? `<video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="${r ? r.src.replace('-800', '-1600') : ''}" aria-hidden="true"><source src="/assets/video/hero.webm" type="video/webm"><source src="/assets/video/hero.mp4" type="video/mp4"></video>` : '';
-  const media = r ? `<div class="hero__media"><img class="${video ? '' : 'hero__kb'}" src="${r.src}" srcset="${r.srcset}" sizes="100vw" alt="${esc(imgAlt || '')}" fetchpriority="high" decoding="async"${r.w ? ` width="${r.w}" height="${r.h}"` : ''}>${video}</div>` : '';
+  const hasVideo = opts.video && fs.existsSync(path.join(root, 'assets/video/hero.mp4'));
+  const videoAttrs = hasVideo ? ` data-video-mp4="/assets/video/hero.mp4"${fs.existsSync(path.join(root, 'assets/video/hero.webm')) ? ' data-video-webm="/assets/video/hero.webm"' : ''}` : '';
+  const media = r ? `<div class="hero__media"${videoAttrs}><img class="hero__kb" src="${r.src}" srcset="${r.srcset}" sizes="100vw" alt="${esc(imgAlt || '')}" fetchpriority="high" decoding="async"${r.w ? ` width="${r.w}" height="${r.h}"` : ''}></div>` : '';
   return { html: `<section class="hero ${page ? 'hero--page' : ''} cut-bottom">${media}<div class="wrap hero__in">${crumbs ? '{{CRUMBS}}' : ''}<h1 class="h-anim">${h1}</h1>${sub ? `<p class="hero__sub h-anim">${sub}</p>` : ''}${text ? `<p class="hero__text h-anim">${text}</p>` : ''}${ctas ? `<div class="hero__cta h-anim">${ctas}</div>` : ''}${badges ? `<div class="hero__badges h-anim">${badges.map(b => `<span>${esc(b)}</span>`).join('')}</div>` : ''}</div></section>`, preload: r };
 }
 const heroCtas = `<a class="btn btn--primary" href="tel:${biz.phoneTel}">${I.phone}Call ${esc(biz.phoneDisplay)}</a><a class="btn btn--ghost" href="/contact/#quote">Get a quote</a>`;

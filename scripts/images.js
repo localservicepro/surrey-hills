@@ -39,7 +39,9 @@ im.save(sys.argv[2],'WEBP',quality=int(sys.argv[4]),method=6); print(im.width, i
       const base = f.replace(/\.(jpe?g|png|webp)$/i, '');
       for (const w of job.sizes) {
         const out = path.join(outDir, `${base}-${w}.webp`);
-        const [cw, ch] = await convert(path.join(srcDir, f), out, w, w >= 1600 ? 72 : (w === 800 ? 70 : 68));
+        let q = w >= 1600 ? 72 : (w === 800 ? 70 : 68); let cw, ch;
+        // high-entropy textures (bark, gravel) stay heavy at normal quality: step quality down until the 800px file is ≤150 KB (1600px ≤ 320 KB)
+        for (;;) { [cw, ch] = await convert(path.join(srcDir, f), out, w, q); const sz = fs.statSync(out).size; if (q <= 46 || sz <= (w >= 1600 ? 320000 : w === 800 ? 150000 : 70000)) break; q -= 8; }
         if (w === 800) dims[job.key + base + '-800'] = [cw, ch];
       }
       n++;
