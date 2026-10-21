@@ -11,20 +11,54 @@
     "imageAlt": "Pine bark mulch pile at Surrey Hills Garden Supplies yard, bulk mulch delivery Melbourne east",
     "intro": "Mulch is the quickest way to make a garden bed look finished and to keep it that way. A layer spread over the soil holds moisture in through a Melbourne summer, keeps roots cool, suppresses weeds and slowly feeds the soil as it breaks down. Surrey Hills Garden Supplies keeps a full range of mulch on the yard on Canterbury Road: 10mm and 20mm pine bark, black midnight mulch, organic mulch and certified soft-play mulch for playgrounds. Every product can be bagged into 15kg bags for pickup, loaded into your own trailer, or delivered in bulk on one of our trucks. We service both trades and the general public, and in the eastern suburbs we aim to deliver in less than two hours. If you are not sure how much you need, use the volume calculator on each product page: as a rule, one cubic metre covers about 10 square metres at 100mm deep.",
     "howToChoose": [
-      {"q": "Garden beds you want to look sharp", "a": "10mm pine bark gives a fine, even, chocolate-brown finish and does not blow or wash away. It is the pick for high-profile beds close to the house."},
-      {"q": "Big beds, slopes and under trees", "a": "20mm pine bark is the same bark in a larger grade. It lasts longer, sits well on slopes and hides fallen leaves and bark."},
-      {"q": "A dark, contemporary look", "a": "Black midnight mulch is a dyed, recycled timber mulch that holds its colour and makes greens and flower colour stand out."},
-      {"q": "Feeding the soil", "a": "Organic mulch is composted and breaks down faster, adding organic matter. Good for vegie patches and anywhere you want to improve the soil."},
-      {"q": "Playgrounds and fall zones", "a": "Soft play mulch is a certified playground grade. It needs to be installed to the right depth, so check the product page and ask us before ordering."}
+      {
+        "q": "Garden beds you want to look sharp",
+        "a": "10mm pine bark gives a fine, even, chocolate-brown finish and does not blow or wash away. It is the pick for high-profile beds close to the house."
+      },
+      {
+        "q": "Big beds, slopes and under trees",
+        "a": "20mm pine bark is the same bark in a larger grade. It lasts longer, sits well on slopes and hides fallen leaves and bark."
+      },
+      {
+        "q": "A dark, contemporary look",
+        "a": "Black midnight mulch is a dyed, recycled timber mulch that holds its colour and makes greens and flower colour stand out."
+      },
+      {
+        "q": "Feeding the soil",
+        "a": "Organic mulch is composted and breaks down faster, adding organic matter. Good for vegie patches and anywhere you want to improve the soil."
+      },
+      {
+        "q": "Playgrounds and fall zones",
+        "a": "Soft play mulch is a certified playground grade. It needs to be installed to the right depth, so check the product page and ask us before ordering."
+      }
     ],
     "faqs": [
-      {"q": "How deep should I lay mulch?", "a": "Lay mulch 75–100mm deep on a new bed and 50–75mm when topping up. Keep it clear of plant stems and tree trunks to avoid rot and fungal problems in the bark."},
-      {"q": "How much mulch do I need?", "a": "One cubic metre of mulch covers roughly 10 square metres at 100mm deep, or about 13 square metres at 75mm. Use the calculator on any mulch page and add 10% for settling."},
-      {"q": "Can I get mulch in bags?", "a": "Yes. We bag every mulch into 15kg bags for yard pickup. For larger areas a bulk load delivered on our truck, or filling your own trailer, works out far cheaper per metre."},
-      {"q": "Do you deliver mulch to my suburb?", "a": "We deliver bulk mulch across Melbourne's eastern suburbs, usually in less than two hours from Surrey Hills. Call (03) 9890 3901 with your suburb and quantity and we will confirm a time."},
-      {"q": "Which mulch is best for weed control?", "a": "Any mulch laid at 75mm or more will suppress weeds. Pine bark lasts longest between top-ups; organic mulch breaks down faster but improves the soil underneath."}
+      {
+        "q": "How deep should I lay mulch?",
+        "a": "Lay mulch 75–100mm deep on a new bed and 50–75mm when topping up. Keep it clear of plant stems and tree trunks to avoid rot and fungal problems in the bark."
+      },
+      {
+        "q": "How much mulch do I need?",
+        "a": "One cubic metre of mulch covers roughly 10 square metres at 100mm deep, or about 13 square metres at 75mm. Use the calculator on any mulch page and add 10% for settling."
+      },
+      {
+        "q": "Can I get mulch in bags?",
+        "a": "Yes. We bag every mulch into 15kg bags for yard pickup. For larger areas a bulk load delivered on our truck, or filling your own trailer, works out far cheaper per metre."
+      },
+      {
+        "q": "Do you deliver mulch to my suburb?",
+        "a": "We deliver bulk mulch across Melbourne's eastern suburbs, usually in less than two hours from Surrey Hills. Call (03) 9890 3901 with your suburb and quantity and we will confirm a time."
+      },
+      {
+        "q": "Which mulch is best for weed control?",
+        "a": "Any mulch laid at 75mm or more will suppress weeds. Pine bark lasts longest between top-ups; organic mulch breaks down faster but improves the soil underneath."
+      }
     ],
-    "related": ["soil", "rock-and-stone", "grass"]
+    "related": [
+      "soil",
+      "rock-and-stone",
+      "grass"
+    ]
   },
   {
     "slug": "soil",
@@ -32,25 +66,56 @@
     "navLabel": "Soil & Sand",
     "h1": "Soil Supplies Surrey Hills & Melbourne East",
     "title": "Soil Surrey Hills | Garden Soil Bulk & Bagged | SHGS",
-    "metaDescription": "Blended soil, premium organic soil and native garden mix from our Surrey Hills yard. 15kg bags or bulk loads delivered across Melbourne's east in under 2 hours.",
+    "metaDescription": "Blended soil, premium organic soil and native garden mix from our Surrey Hills yard. 15kg bags or bulk loads delivered to Melbourne's east in under 2 hours.",
     "tile": "Our extensive range of high quality Soils and Garden Mix can be used in a variety of garden applications. Surrey Hills Garden Supplies can bag the product into 15kg bags which you can pickup from the Surrey Hills Garden Supplies yard or our trucks can deliver bulk loads to you on site.",
     "image": "soil-04",
     "imageAlt": "Garden soil pile in a bay at Surrey Hills Garden Supplies, bulk soil delivery Melbourne east",
     "intro": "Good soil is the difference between a garden that struggles and one that takes off. Surrey Hills Garden Supplies stocks three soils that cover almost every job in a Melbourne garden: a blended soil for lawns, instant turf and general garden beds, a premium organic soil for vegetable patches and planter boxes, and a sandier native garden mix for Australian natives that need sharp drainage. All three are stored in bays on our Canterbury Road yard so you can see and handle the product before you buy. Collect it in 15kg bags, back your trailer up and we will load it, or have a bulk load delivered on one of our trucks. Trades and the public are both welcome, and deliveries in the eastern suburbs usually arrive in less than two hours. Use the calculator on each product page to work out cubic metres from the length, width and depth of your bed.",
     "howToChoose": [
-      {"q": "Lawns and instant turf", "a": "Blended soil is the ideal base under instant turf and for levelling or top dressing lawns. Lay 100mm, rake level and firm before turfing."},
-      {"q": "Vegie patches, raised beds and planter boxes", "a": "Premium organic soil is a composted, organic mix with the nutrients vegetables and flowers need. Fill the bed and plant straight into it."},
-      {"q": "Australian natives", "a": "Native garden mix is a sandier, low-nutrient version of blended soil. Natives such as grevilleas and banksias prefer it because it drains freely."},
-      {"q": "Not sure?", "a": "Call the yard and tell us what you are planting. We will point you to the right soil and the right quantity."}
+      {
+        "q": "Lawns and instant turf",
+        "a": "Blended soil is the ideal base under instant turf and for levelling or top dressing lawns. Lay 100mm, rake level and firm before turfing."
+      },
+      {
+        "q": "Vegie patches, raised beds and planter boxes",
+        "a": "Premium organic soil is a composted, organic mix with the nutrients vegetables and flowers need. Fill the bed and plant straight into it."
+      },
+      {
+        "q": "Australian natives",
+        "a": "Native garden mix is a sandier, low-nutrient version of blended soil. Natives such as grevilleas and banksias prefer it because it drains freely."
+      },
+      {
+        "q": "Not sure?",
+        "a": "Call the yard and tell us what you are planting. We will point you to the right soil and the right quantity."
+      }
     ],
     "faqs": [
-      {"q": "How much does a cubic metre of soil weigh?", "a": "Garden soil weighs roughly 1.2 tonnes per cubic metre when it is dry and more when wet. That matters for trailers: a standard 6x4 trailer carries about half a cubic metre."},
-      {"q": "How much soil do I need for a new lawn?", "a": "Allow 100mm of blended soil under instant turf. One cubic metre covers about 10 square metres at that depth. Use the calculator on the blended soil page."},
-      {"q": "Can I pick up soil in bags?", "a": "Yes. Every soil can be bagged into 15kg bags at the yard. For more than a few bags, a trailer or a bulk delivery is better value."},
-      {"q": "What soil should I use for vegetables?", "a": "Premium organic soil. It is a composted organic mix made for vegetable gardens and planter boxes. Our blog post on soil for vegetable gardens goes into more detail."},
-      {"q": "Do you deliver soil on weekends?", "a": "Delivery days and times depend on the truck schedule. Call (03) 9890 3901 and we will give you the next available slot for your suburb."}
+      {
+        "q": "How much does a cubic metre of soil weigh?",
+        "a": "Garden soil weighs roughly 1.2 tonnes per cubic metre when it is dry and more when wet. That matters for trailers: a standard 6x4 trailer carries about half a cubic metre."
+      },
+      {
+        "q": "How much soil do I need for a new lawn?",
+        "a": "Allow 100mm of blended soil under instant turf. One cubic metre covers about 10 square metres at that depth. Use the calculator on the blended soil page."
+      },
+      {
+        "q": "Can I pick up soil in bags?",
+        "a": "Yes. Every soil can be bagged into 15kg bags at the yard. For more than a few bags, a trailer or a bulk delivery is better value."
+      },
+      {
+        "q": "What soil should I use for vegetables?",
+        "a": "Premium organic soil. It is a composted organic mix made for vegetable gardens and planter boxes. Our blog post on soil for vegetable gardens goes into more detail."
+      },
+      {
+        "q": "Do you deliver soil on weekends?",
+        "a": "Delivery days and times depend on the truck schedule. Call (03) 9890 3901 and we will give you the next available slot for your suburb."
+      }
     ],
-    "related": ["sand", "mulch", "grass"]
+    "related": [
+      "sand",
+      "mulch",
+      "grass"
+    ]
   },
   {
     "slug": "sand",
@@ -58,25 +123,56 @@
     "navLabel": "Soil & Sand",
     "h1": "Sand Supplies Surrey Hills & Melbourne East",
     "title": "Sand Surrey Hills | Brick, Washed & Kiln Dried | SHGS",
-    "metaDescription": "White brick sand, washed sand, triple washed sand and kiln dried sand in Surrey Hills. Bags, bulker bags or bulk loads delivered to Melbourne's east in under 2 hours.",
+    "metaDescription": "Brick sand, washed sand, triple washed and kiln dried sand in Surrey Hills. Bags, bulker bags or bulk loads delivered to Melbourne's east in under 2 hours.",
     "tile": "Our premium range of sands have a variety of uses including for general garden decorating, brick laying, paving, concrete packing and filling gaps in instant turf. We stock a large variety including white sand, washed sand, triple washed sand, kiln dried sand and packing sand.",
     "image": "sand-03",
     "imageAlt": "Washed sand bay at Surrey Hills Garden Supplies, bulk sand delivery Surrey Hills Melbourne",
     "intro": "Sand sounds simple until you use the wrong one. Brick sand holds together in mortar, washed sand drains under pavers, triple washed sand is clean enough for tiling and rendering, and kiln dried sand is bone dry so it flows into the joints of pavers and the pile of synthetic grass. Surrey Hills Garden Supplies keeps all four on the yard on Canterbury Road, plus packing sand for base work. Sand is sold loose by the cubic metre for trailers and truck deliveries, bagged for pickup, and kiln dried sand is also available in 20kg bags and one-tonne bulker bags. Bricklayers, pavers, tilers, landscapers and home renovators all buy from the same bays, and we are happy to talk you through which grade suits the job. In Melbourne's eastern suburbs we aim to have bulk sand on site in less than two hours.",
     "howToChoose": [
-      {"q": "Bricklaying and mortar", "a": "White brick sand, also called builders sand. Fine, with a little clay, so mortar is workable and holds its shape on the trowel."},
-      {"q": "Paving base and concrete", "a": "Washed sand. Coarse and clean, so it compacts well under pavers and is the standard sand for site-mixed concrete."},
-      {"q": "Tiling, rendering and bedding", "a": "Triple washed sand. Washed three times to remove clay and silt, which keeps tile adhesives and renders clean and strong."},
-      {"q": "Synthetic grass infill and paver joints", "a": "Kiln dried sand. Oven dried so it pours freely, in 20kg bags, one-tonne bulker bags or bulk loads up to 12 cubic metres."}
+      {
+        "q": "Bricklaying and mortar",
+        "a": "White brick sand, also called builders sand. Fine, with a little clay, so mortar is workable and holds its shape on the trowel."
+      },
+      {
+        "q": "Paving base and concrete",
+        "a": "Washed sand. Coarse and clean, so it compacts well under pavers and is the standard sand for site-mixed concrete."
+      },
+      {
+        "q": "Tiling, rendering and bedding",
+        "a": "Triple washed sand. Washed three times to remove clay and silt, which keeps tile adhesives and renders clean and strong."
+      },
+      {
+        "q": "Synthetic grass infill and paver joints",
+        "a": "Kiln dried sand. Oven dried so it pours freely, in 20kg bags, one-tonne bulker bags or bulk loads up to 12 cubic metres."
+      }
     ],
     "faqs": [
-      {"q": "What is the difference between washed sand and brick sand?", "a": "Brick sand is finer and contains a small amount of clay so mortar sticks and stays workable. Washed sand is coarser with the clay washed out, so it drains and compacts, which is what you want under pavers and in concrete."},
-      {"q": "How much sand fits in a 6x4 trailer?", "a": "About half a cubic metre, which weighs around 750kg. Check your trailer's rated capacity before loading."},
-      {"q": "Do you sell sand in bulker bags?", "a": "Kiln dried sand is available in one-tonne bulker bags. Ask about bulker bags for other sands when you call."},
-      {"q": "Which sand do I use to top dress artificial grass?", "a": "Kiln dried silica sand. It is dry and free flowing so it works down between the blades and weighs the grass down. Our blog post on kiln dried sand applications explains the method."},
-      {"q": "Can you deliver sand on the same day?", "a": "Usually, yes. Within the eastern suburbs we aim for delivery in under two hours. Call (03) 9890 3901 with your suburb and quantity."}
+      {
+        "q": "What is the difference between washed sand and brick sand?",
+        "a": "Brick sand is finer and contains a small amount of clay so mortar sticks and stays workable. Washed sand is coarser with the clay washed out, so it drains and compacts, which is what you want under pavers and in concrete."
+      },
+      {
+        "q": "How much sand fits in a 6x4 trailer?",
+        "a": "About half a cubic metre, which weighs around 750kg. Check your trailer's rated capacity before loading."
+      },
+      {
+        "q": "Do you sell sand in bulker bags?",
+        "a": "Kiln dried sand is available in one-tonne bulker bags. Ask about bulker bags for other sands when you call."
+      },
+      {
+        "q": "Which sand do I use to top dress artificial grass?",
+        "a": "Kiln dried silica sand. It is dry and free flowing so it works down between the blades and weighs the grass down. Our blog post on kiln dried sand applications explains the method."
+      },
+      {
+        "q": "Can you deliver sand on the same day?",
+        "a": "Usually, yes. Within the eastern suburbs we aim for delivery in under two hours. Call (03) 9890 3901 with your suburb and quantity."
+      }
     ],
-    "related": ["soil", "concrete-products", "grass"]
+    "related": [
+      "soil",
+      "concrete-products",
+      "grass"
+    ]
   },
   {
     "slug": "rock-and-stone",
@@ -84,26 +180,60 @@
     "navLabel": "Rock & Stone",
     "h1": "Rock & Stone Supplies Surrey Hills & Melbourne East",
     "title": "Crushed Rock & Stone Surrey Hills | Bulk Delivery | SHGS",
-    "metaDescription": "Crushed rock, scoria, screenings, Tuscan toppings, 7mm aggregate and crusher dust from Surrey Hills. 15kg bags, trailer loads or bulk delivery across Melbourne's east.",
+    "metaDescription": "Crushed rock, scoria, screenings, Tuscan toppings, 7mm aggregate and crusher dust. 15kg bags, trailer or bulk delivery from Surrey Hills to Melbourne's east.",
     "tile": "We offer a large range of rock and stone to suit all garden types. Our range includes various colours and sizes that can be used for decoration or garden foundation and irrigation. Surrey Hills Garden Supplies can bag the product into 15kg bags, and can supply bulk loads, truck loads or BYO your trailer to the site.",
     "image": "scoria-06",
     "imageAlt": "Scoria and crushed rock bays at Surrey Hills Garden Supplies, bulk stone delivery Melbourne east",
     "intro": "Rock and stone do the structural work in a landscape: the base under a driveway or shed, the drainage layer behind a retaining wall, the bedding for pipes and the decorative finish on paths and garden beds. Surrey Hills Garden Supplies stocks the grades Melbourne landscapers, plumbers and builders ask for most: 20mm crushed rock, 14mm screenings, 7mm (quarter minus) aggregate, crusher dust, scoria, Tuscan toppings and larger rubble rock from 40mm to 100mm. Everything is held in bays on our Canterbury Road yard and can be bagged into 15kg bags, loaded into your trailer, or delivered by the cubic metre on our trucks. Rock is heavy, so for anything more than a few bags a delivery is usually the easiest option. We aim to deliver in the eastern suburbs in less than two hours. The calculator on each product page converts length, width and depth into cubic metres and tonnes.",
     "howToChoose": [
-      {"q": "Driveways, shed bases and compacted fill", "a": "20mm crushed rock with fines. It locks together when compacted and is the standard base material."},
-      {"q": "Concrete and drainage pipe bedding", "a": "14mm screenings. Clean, single-size stone used in concrete and around agricultural pipe."},
-      {"q": "Paving and under slabs", "a": "7mm aggregate (quarter minus) or crusher dust. Both compact to a smooth, firm bed for pavers."},
-      {"q": "Drainage behind walls and in trenches", "a": "Scoria. Light, porous volcanic rock that plumbers and landscapers use for free-draining backfill."},
-      {"q": "Paths and decorative beds", "a": "Tuscan toppings for a warm, compacted gravel path, or large rubble rock for dry creek beds and feature areas."}
+      {
+        "q": "Driveways, shed bases and compacted fill",
+        "a": "20mm crushed rock with fines. It locks together when compacted and is the standard base material."
+      },
+      {
+        "q": "Concrete and drainage pipe bedding",
+        "a": "14mm screenings. Clean, single-size stone used in concrete and around agricultural pipe."
+      },
+      {
+        "q": "Paving and under slabs",
+        "a": "7mm aggregate (quarter minus) or crusher dust. Both compact to a smooth, firm bed for pavers."
+      },
+      {
+        "q": "Drainage behind walls and in trenches",
+        "a": "Scoria. Light, porous volcanic rock that plumbers and landscapers use for free-draining backfill."
+      },
+      {
+        "q": "Paths and decorative beds",
+        "a": "Tuscan toppings for a warm, compacted gravel path, or large rubble rock for dry creek beds and feature areas."
+      }
     ],
     "faqs": [
-      {"q": "How much does crushed rock weigh?", "a": "About 1.6 tonnes per cubic metre. Scoria is much lighter at roughly 0.9 tonnes per cubic metre, which is one reason it is used behind retaining walls."},
-      {"q": "What is the difference between crushed rock and screenings?", "a": "Crushed rock includes fines (dust) so it compacts into a solid base. Screenings are washed, single-size stone with no fines, so water passes straight through."},
-      {"q": "Can I bring my own trailer for rock?", "a": "Yes. Back up to the bay and we will load it. Remember rock is heavy: a 6x4 trailer takes about half a cubic metre, which is around 800kg of crushed rock."},
-      {"q": "Do you sell rock in bags?", "a": "Yes. Every rock product can be bagged into 15kg bags at the yard for small jobs and top-ups."},
-      {"q": "How deep should a crushed rock base be?", "a": "For a garden path 75mm compacted is typical; for a driveway allow 100–150mm compacted in layers. Use the calculator and add 10% for compaction."}
+      {
+        "q": "How much does crushed rock weigh?",
+        "a": "About 1.6 tonnes per cubic metre. Scoria is much lighter at roughly 0.9 tonnes per cubic metre, which is one reason it is used behind retaining walls."
+      },
+      {
+        "q": "What is the difference between crushed rock and screenings?",
+        "a": "Crushed rock includes fines (dust) so it compacts into a solid base. Screenings are washed, single-size stone with no fines, so water passes straight through."
+      },
+      {
+        "q": "Can I bring my own trailer for rock?",
+        "a": "Yes. Back up to the bay and we will load it. Remember rock is heavy: a 6x4 trailer takes about half a cubic metre, which is around 800kg of crushed rock."
+      },
+      {
+        "q": "Do you sell rock in bags?",
+        "a": "Yes. Every rock product can be bagged into 15kg bags at the yard for small jobs and top-ups."
+      },
+      {
+        "q": "How deep should a crushed rock base be?",
+        "a": "For a garden path 75mm compacted is typical; for a driveway allow 100–150mm compacted in layers. Use the calculator and add 10% for compaction."
+      }
     ],
-    "related": ["sand", "concrete-products", "drainage"]
+    "related": [
+      "sand",
+      "concrete-products",
+      "drainage"
+    ]
   },
   {
     "slug": "concrete-products",
@@ -111,50 +241,109 @@
     "navLabel": "Concrete",
     "h1": "Concrete Products Surrey Hills & Melbourne East",
     "title": "Cement & Concrete Products Surrey Hills | SHGS",
-    "metaDescription": "Cement Australia bagged cement, concrete mix, rapid set, steel mesh, reo bar, bar chairs, oxides and additives from Surrey Hills Garden Supplies. Pickup or delivered.",
+    "metaDescription": "Cement Australia bagged cement, concrete mix, rapid set, reo mesh, bar chairs, oxides and additives. Pickup or delivery from Surrey Hills Garden Supplies.",
     "tile": "Surrey Hills Garden Supplies offers industry leading Australian Cement brand bagged concrete products. The entire range of premium cement products are available and can be used for all types of garden construction. Cement products can be purchased at the yard or can be bulk delivered to you on site.",
     "image": "cement-05",
     "imageAlt": "Bagged cement and concrete mix stacked at Surrey Hills Garden Supplies yard",
     "intro": "Surrey Hills Garden Supplies carries the Cement Australia bagged range so concreters, bricklayers and home builders in Melbourne's east can get everything for a pour in one stop: general purpose cement, builders cement, off-white cement, concrete mix, rapid set, mortar mix and hydrated lime, all in 20kg bags. Alongside the bags we stock reinforcing steel (ute mesh, trench mesh, reo bar and starter bars), bar chairs in four heights, builders plastic and dampcourse, and additives such as oxides, waterproofers, plasticisers and sealers. Bulk concrete mix is also available by the cubic metre for larger jobs. Everything can be picked up from the Canterbury Road yard or delivered on our trucks, and in the eastern suburbs we aim for delivery in less than two hours. Trade accounts and the public are both welcome. If you are unsure which cement or mesh a job needs, call and talk to the yard before you order.",
     "howToChoose": [
-      {"q": "Footings, slabs and general concreting", "a": "General purpose cement mixed with washed sand and screenings, or bagged concrete mix for small jobs such as mower strips and post footings."},
-      {"q": "Fence posts and clothes hoists", "a": "Rapid set. Pour it dry into the hole, add water and it hardens in minutes."},
-      {"q": "Bricklaying and blockwork", "a": "Builders cement or mortar mix with white brick sand, plus hydrated lime for workability."},
-      {"q": "Reinforcing a slab or footing", "a": "Ute mesh for small slabs, trench mesh for strip footings, and bar chairs to hold the steel at the right height."}
+      {
+        "q": "Footings, slabs and general concreting",
+        "a": "General purpose cement mixed with washed sand and screenings, or bagged concrete mix for small jobs such as mower strips and post footings."
+      },
+      {
+        "q": "Fence posts and clothes hoists",
+        "a": "Rapid set. Pour it dry into the hole, add water and it hardens in minutes."
+      },
+      {
+        "q": "Bricklaying and blockwork",
+        "a": "Builders cement or mortar mix with white brick sand, plus hydrated lime for workability."
+      },
+      {
+        "q": "Reinforcing a slab or footing",
+        "a": "Ute mesh for small slabs, trench mesh for strip footings, and bar chairs to hold the steel at the right height."
+      }
     ],
     "faqs": [
-      {"q": "How many 20kg bags of concrete mix make a cubic metre?", "a": "Roughly 110 bags of 20kg concrete mix make one cubic metre. For anything over a few hundred litres, bulk concrete mix delivered by the metre is far cheaper and quicker."},
-      {"q": "Do you deliver bagged cement?", "a": "Yes. Bagged cement products can be purchased at the yard or delivered at an additional cost, on their own or with a bulk load of sand or rock."},
-      {"q": "What is the difference between GP cement and builders cement?", "a": "General purpose cement is straight cement for all-round concrete work. Builders cement is blended with fly ash or slag for better workability and later-age strength in mortars, grouts and general concrete."},
-      {"q": "Do you stock reinforcing mesh and bar?", "a": "Yes. Ute mesh, trench mesh, reo bar and starter bars are listed on the steel page, with bar chairs to suit."},
-      {"q": "Can I colour concrete?", "a": "Yes. We stock oxides in a range of colours, plus other additives, on the additives page."}
+      {
+        "q": "How many 20kg bags of concrete mix make a cubic metre?",
+        "a": "Roughly 110 bags of 20kg concrete mix make one cubic metre. For anything over a few hundred litres, bulk concrete mix delivered by the metre is far cheaper and quicker."
+      },
+      {
+        "q": "Do you deliver bagged cement?",
+        "a": "Yes. Bagged cement products can be purchased at the yard or delivered at an additional cost, on their own or with a bulk load of sand or rock."
+      },
+      {
+        "q": "What is the difference between GP cement and builders cement?",
+        "a": "General purpose cement is straight cement for all-round concrete work. Builders cement is blended with fly ash or slag for better workability and later-age strength in mortars, grouts and general concrete."
+      },
+      {
+        "q": "Do you stock reinforcing mesh and bar?",
+        "a": "Yes. Ute mesh, trench mesh, reo bar and starter bars are listed on the steel page, with bar chairs to suit."
+      },
+      {
+        "q": "Can I colour concrete?",
+        "a": "Yes. We stock oxides in a range of colours, plus other additives, on the additives page."
+      }
     ],
-    "related": ["sand", "rock-and-stone", "building-materials"]
+    "related": [
+      "sand",
+      "rock-and-stone",
+      "building-materials"
+    ]
   },
   {
     "slug": "tool-shop",
     "name": "Tool Shop",
     "navLabel": "Tool Shop",
     "h1": "Tool Shop Surrey Hills & Melbourne East",
-    "title": "Trade Tool Shop Surrey Hills | Bricklaying & Concreting Tools",
-    "metaDescription": "Bricklaying, concreting, plastering and landscaping tools, safety gear and garden products at Surrey Hills Garden Supplies. Trade quality tools at affordable prices.",
+    "title": "Tool Shop Surrey Hills | Bricklaying & Concreting Tools",
+    "metaDescription": "Bricklaying, concreting, plastering and landscaping tools, safety gear and garden products. Trade-quality tools at fair prices, Surrey Hills Garden Supplies.",
     "tile": "The Tool Shop offers a large range of tools that can be used in various trades including brick laying, Plastering, Concreting, Carpentry, Plumbing, Tiling and Landscaping. We offer top quality tools at affordable prices.",
     "image": "yard-01",
     "imageAlt": "Surrey Hills Garden Supplies yard on Canterbury Road with the tool shop and product bays",
     "intro": "The tool shop at Surrey Hills Garden Supplies is stocked for the trades that use our materials: bricklayers, concreters, plasterers, tilers, landscapers and carpenters. Trowels from Marshalltown and Marco Pesaro, floats, hawks, jointers, levels, line blocks and pins, diamond blades, shovels, rakes, brooms, wheelbarrows and the hammers, chisels and bolt cutters that go with them. The safety range covers gloves, glasses, dust masks, ear protection, knee pads, hi-vis vests, barricade tape, witches hats and bollards. Garden products include fertilisers, manures, lime, gypsum, lawn seed, weed mat, geotextile and pest control, and we keep a few odd items such as half wine barrels. Everything is on the shelf at the Canterbury Road yard, so you can pick up a bag of cement, a trowel and a pair of gloves in one visit. We aim for trade quality at affordable prices, and if you need something we do not have on the shelf, ask and we will try to get it in.",
     "howToChoose": [
-      {"q": "Bricklaying", "a": "Brick trowels, jointers, line blocks and pins, brick carriers, bolsters and a masonry splash brush. See the tools page."},
-      {"q": "Concreting", "a": "Bull floats, edgers, magnesium and wood floats, kneeling boards, placer rakes and mixing paddles."},
-      {"q": "Safety on site", "a": "Gloves, safety glasses, dust masks, ear muffs and plugs, knee pads, hi-vis vests and site barricade gear."},
-      {"q": "Lawn and garden care", "a": "Lawn seed, starter and repair products, fertilisers, manures, lime and gypsum on the garden products page."}
+      {
+        "q": "Bricklaying",
+        "a": "Brick trowels, jointers, line blocks and pins, brick carriers, bolsters and a masonry splash brush. See the tools page."
+      },
+      {
+        "q": "Concreting",
+        "a": "Bull floats, edgers, magnesium and wood floats, kneeling boards, placer rakes and mixing paddles."
+      },
+      {
+        "q": "Safety on site",
+        "a": "Gloves, safety glasses, dust masks, ear muffs and plugs, knee pads, hi-vis vests and site barricade gear."
+      },
+      {
+        "q": "Lawn and garden care",
+        "a": "Lawn seed, starter and repair products, fertilisers, manures, lime and gypsum on the garden products page."
+      }
     ],
     "faqs": [
-      {"q": "Do you sell tools to the public?", "a": "Yes. The tool shop serves trades and the general public at the same prices."},
-      {"q": "Which trowel brands do you carry?", "a": "Marshalltown and Marco Pesaro trowels and floats, plus Ancora Pavan stainless pool trowels, among others listed on the tools page."},
-      {"q": "Do you stock safety gear?", "a": "Yes. Gloves, glasses, masks, hearing protection, knee pads, vests and barricade products are on the safety products page."},
-      {"q": "Can I order tools for delivery?", "a": "Tools and garden products can be added to a delivery of bulk materials. Call the yard to arrange it."}
+      {
+        "q": "Do you sell tools to the public?",
+        "a": "Yes. The tool shop serves trades and the general public at the same prices."
+      },
+      {
+        "q": "Which trowel brands do you carry?",
+        "a": "Marshalltown and Marco Pesaro trowels and floats, plus Ancora Pavan stainless pool trowels, among others listed on the tools page."
+      },
+      {
+        "q": "Do you stock safety gear?",
+        "a": "Yes. Gloves, glasses, masks, hearing protection, knee pads, vests and barricade products are on the safety products page."
+      },
+      {
+        "q": "Can I order tools for delivery?",
+        "a": "Tools and garden products can be added to a delivery of bulk materials. Call the yard to arrange it."
+      }
     ],
-    "related": ["concrete-products", "building-materials", "grass"]
+    "related": [
+      "concrete-products",
+      "building-materials",
+      "grass"
+    ]
   },
   {
     "slug": "grass",
@@ -162,50 +351,109 @@
     "navLabel": "Grass",
     "h1": "Synthetic Grass & Instant Turf Surrey Hills & Melbourne East",
     "title": "Synthetic Grass & Instant Turf Surrey Hills | Smart Grass",
-    "metaDescription": "Smart Grass synthetic lawn, instant turf, lawn seed, edging and installation items from Surrey Hills Garden Supplies. Australian distributor of Smart Grass.",
+    "metaDescription": "Smart Grass synthetic lawn, instant turf, lawn seed, edging and installation items. Surrey Hills Garden Supplies is the Australian distributor of Smart Grass.",
     "tile": "Surrey Hills Garden Supplies are the Australian distributor of Smart Grass, supplying high quality Synthetic lawn products Australia wide. We also supply instant turf as well as all necessary products involved in lawn care and maintenance including soil, sand, seed and fertilisers and edging.",
     "image": "turf-07",
     "imageAlt": "Instant turf rolls and synthetic grass samples at Surrey Hills Garden Supplies",
     "intro": "Whether you want a lawn that never needs mowing or a real one laid this weekend, Surrey Hills Garden Supplies has it on the yard. We are the Australian distributor of Smart Grass synthetic lawn, with styles from 12mm sports grass to 40mm residential grass, and we supply everything that goes with an installation: crusher dust base, kiln dried silica sand infill, joining tape, pegs, geotextile and edging. For natural lawns we supply instant turf (minimum 30 square metres), blended soil to lay it on, lawn seed and the starter, repair and fertiliser products to keep it green. Synthetic grass is sold by the roll and cut to length; the base materials are bagged, bulk or trailer loads like everything else on the yard. We deliver across Melbourne's eastern suburbs, usually in less than two hours, and ship Smart Grass Australia wide. Call the yard to arrange samples or to talk through square metres.",
     "howToChoose": [
-      {"q": "Low-maintenance family lawn", "a": "Smart Grass in a 30–40mm residential style. Lay it on a compacted crusher dust base and top dress with kiln dried sand."},
-      {"q": "Sports, putting or play areas", "a": "Smart Grass 12–20mm sports grass styles, which are shorter and firmer underfoot."},
-      {"q": "A real lawn, quickly", "a": "Instant turf on 100mm of blended soil. Minimum order is 30 square metres."},
-      {"q": "Repairing or starting a lawn from seed", "a": "Lawn seed blends plus lawn starter and repair products from the garden products page."}
+      {
+        "q": "Low-maintenance family lawn",
+        "a": "Smart Grass in a 30–40mm residential style. Lay it on a compacted crusher dust base and top dress with kiln dried sand."
+      },
+      {
+        "q": "Sports, putting or play areas",
+        "a": "Smart Grass 12–20mm sports grass styles, which are shorter and firmer underfoot."
+      },
+      {
+        "q": "A real lawn, quickly",
+        "a": "Instant turf on 100mm of blended soil. Minimum order is 30 square metres."
+      },
+      {
+        "q": "Repairing or starting a lawn from seed",
+        "a": "Lawn seed blends plus lawn starter and repair products from the garden products page."
+      }
     ],
     "faqs": [
-      {"q": "Are you really the Australian distributor of Smart Grass?", "a": "Yes. Surrey Hills Garden Supplies is the Australian distributor of Smart Grass and supplies it Australia wide."},
-      {"q": "What goes under synthetic grass?", "a": "A compacted base of crusher dust (Eco Base), then the grass, then a top dressing of kiln dried silica sand brushed into the pile. All three are on the yard."},
-      {"q": "What is the minimum instant turf order?", "a": "30 square metres. Lay it on about 100mm of blended soil, raked level and firmed."},
-      {"q": "Do you install synthetic grass?", "a": "We supply the grass and installation items. Ask the yard about installers in your area."},
-      {"q": "Can I get a sample of Smart Grass?", "a": "Yes. Call or visit the Canterbury Road yard to see the styles and take samples."}
+      {
+        "q": "Are you really the Australian distributor of Smart Grass?",
+        "a": "Yes. Surrey Hills Garden Supplies is the Australian distributor of Smart Grass and supplies it Australia wide."
+      },
+      {
+        "q": "What goes under synthetic grass?",
+        "a": "A compacted base of crusher dust (Eco Base), then the grass, then a top dressing of kiln dried silica sand brushed into the pile. All three are on the yard."
+      },
+      {
+        "q": "What is the minimum instant turf order?",
+        "a": "30 square metres. Lay it on about 100mm of blended soil, raked level and firmed."
+      },
+      {
+        "q": "Do you install synthetic grass?",
+        "a": "We supply the grass and installation items. Ask the yard about installers in your area."
+      },
+      {
+        "q": "Can I get a sample of Smart Grass?",
+        "a": "Yes. Call or visit the Canterbury Road yard to see the styles and take samples."
+      }
     ],
-    "related": ["sand", "soil", "rock-and-stone"]
+    "related": [
+      "sand",
+      "soil",
+      "rock-and-stone"
+    ]
   },
   {
     "slug": "building-materials",
     "name": "Building Materials",
     "navLabel": "Building Materials",
     "h1": "Building Materials Surrey Hills & Melbourne East",
-    "title": "Building Materials Surrey Hills | Bricks, Blocks, Mesh | SHGS",
-    "metaDescription": "Bricks, pavers, concrete blocks, besser blocks, sleepers, star pickets, reo mesh, lintels and brick ties from Surrey Hills Garden Supplies. Yard pickup or delivered.",
+    "title": "Building Materials Surrey Hills | Bricks, Blocks & Mesh",
+    "metaDescription": "Bricks, pavers, besser blocks, sleepers, star pickets, reo mesh, lintels and brick ties from Surrey Hills Garden Supplies. Yard pickup or delivered.",
     "tile": "As well as garden decorations we offer all necessary foundations for garden projects. Our range includes rock, cement, soil, sand, bricks, pavers and many more items which can be purchased at our yard or delivered in bulk on site.",
     "image": "yard-01",
     "imageAlt": "Building materials and product bays at Surrey Hills Garden Supplies, Canterbury Road",
     "intro": "Surrey Hills Garden Supplies is a garden supply yard that also carries the building materials a landscape or small construction job needs, so builders and owner-builders in Melbourne's east do not have to run between three suppliers. On the yard you will find clay bricks and pavers, concrete blocks and besser blocks, core-fill, treated pine sleepers, star pickets, bluestone and sandstone pavers, bar chairs, hoop iron, ties and dampcourse, with reinforcing steel (ute mesh, trench mesh, reo bar and starter bars) on the steel page and the Cement Australia bagged range on the concrete products page. Heavier building lines, including steel lintels, H-beams, brick ties and reo, can be ordered through the yard. Everything can be picked up from Canterbury Road or delivered on our trucks alongside sand, rock and cement, and in the eastern suburbs we aim to deliver in less than two hours. If a product is not listed, call and ask: the yard can usually source it.",
     "howToChoose": [
-      {"q": "Retaining walls", "a": "Treated pine sleepers with steel posts, or concrete blocks with core-fill and reo. Scoria behind the wall for drainage."},
-      {"q": "Brick and blockwork", "a": "Clay bricks or besser blocks, builders cement or mortar mix, brick sand, brick ties and hoop iron, dampcourse."},
-      {"q": "Footings and slabs", "a": "Trench mesh or ute mesh, starter bars, bar chairs, builders plastic and concrete mix or GP cement with sand and screenings."},
-      {"q": "Fencing and site work", "a": "Star pickets, safety barricade gear and geotextile."}
+      {
+        "q": "Retaining walls",
+        "a": "Treated pine sleepers with steel posts, or concrete blocks with core-fill and reo. Scoria behind the wall for drainage."
+      },
+      {
+        "q": "Brick and blockwork",
+        "a": "Clay bricks or besser blocks, builders cement or mortar mix, brick sand, brick ties and hoop iron, dampcourse."
+      },
+      {
+        "q": "Footings and slabs",
+        "a": "Trench mesh or ute mesh, starter bars, bar chairs, builders plastic and concrete mix or GP cement with sand and screenings."
+      },
+      {
+        "q": "Fencing and site work",
+        "a": "Star pickets, safety barricade gear and geotextile."
+      }
     ],
     "faqs": [
-      {"q": "Do you sell bricks and blocks individually?", "a": "Yes. Bricks, pavers and blocks can be bought by the piece at the yard or delivered by the pallet."},
-      {"q": "Do you stock lintels and steel beams?", "a": "Steel lintels, H-beams and heavier reinforcing can be ordered through the yard. Call with sizes and we will quote."},
-      {"q": "Can building materials be delivered with sand and cement?", "a": "Yes. Our trucks can bring blocks, bags and bulk sand on the same delivery."},
-      {"q": "Do you have trade pricing?", "a": "We serve trades and the public. Ask the yard about trade accounts."}
+      {
+        "q": "Do you sell bricks and blocks individually?",
+        "a": "Yes. Bricks, pavers and blocks can be bought by the piece at the yard or delivered by the pallet."
+      },
+      {
+        "q": "Do you stock lintels and steel beams?",
+        "a": "Steel lintels, H-beams and heavier reinforcing can be ordered through the yard. Call with sizes and we will quote."
+      },
+      {
+        "q": "Can building materials be delivered with sand and cement?",
+        "a": "Yes. Our trucks can bring blocks, bags and bulk sand on the same delivery."
+      },
+      {
+        "q": "Do you have trade pricing?",
+        "a": "We serve trades and the public. Ask the yard about trade accounts."
+      }
     ],
-    "related": ["concrete-products", "rock-and-stone", "sand"]
+    "related": [
+      "concrete-products",
+      "rock-and-stone",
+      "sand"
+    ]
   },
   {
     "slug": "drainage",
@@ -213,22 +461,47 @@
     "navLabel": "Drainage",
     "h1": "Drainage Supplies Surrey Hills & Melbourne East",
     "title": "Drainage Supplies Surrey Hills | Ag Pipe & Scoria | SHGS",
-    "metaDescription": "Agricultural pipe, plastic drainage fittings, scoria and screenings for garden and site drainage from Surrey Hills Garden Supplies. Large and small orders delivered.",
+    "metaDescription": "Ag pipe, plastic drainage pits and fittings, scoria and screenings for garden and site drainage. Large and small orders from Surrey Hills Garden Supplies.",
     "tile": "Our large range of quality drainage supplies offers everything needed to create effective water flow in any sized garden. We have various sized aggepipe as well as many plastic draining solutions. Large and small orders accepted.",
     "image": "scoria-06",
     "imageAlt": "Scoria drainage stone in a bay at Surrey Hills Garden Supplies",
     "intro": "Water that has nowhere to go ruins lawns, undermines paving and pushes retaining walls over. Surrey Hills Garden Supplies stocks the drainage supplies to move it: agricultural (ag) pipe in a range of sizes, plastic drainage pits, grates and fittings, geotextile fabric to keep silt out, and the stone that goes around it all, with scoria and 14mm screenings held in bays on the Canterbury Road yard. Plumbers, landscapers and home owners all buy the same kit for the same jobs: a trench behind a retaining wall, a rubble drain along a boggy fence line, or a soakage pit for a downpipe. Large and small orders are accepted, from a single length of pipe to a bulk load of scoria delivered on our truck. In Melbourne's eastern suburbs we aim to deliver in less than two hours. If you are not sure what size pipe or how much stone a trench needs, tell us the length and depth and we will work it out with you.",
     "howToChoose": [
-      {"q": "Behind retaining walls", "a": "Slotted ag pipe in a sock at the base of the wall, backfilled with scoria, with geotextile between the scoria and the soil."},
-      {"q": "Soggy lawns and fence lines", "a": "A rubble drain: trench, geotextile, ag pipe and 14mm screenings or scoria, finished with soil and turf."},
-      {"q": "Downpipes and surface water", "a": "Solid pipe to a pit or soakage well filled with screenings."}
+      {
+        "q": "Behind retaining walls",
+        "a": "Slotted ag pipe in a sock at the base of the wall, backfilled with scoria, with geotextile between the scoria and the soil."
+      },
+      {
+        "q": "Soggy lawns and fence lines",
+        "a": "A rubble drain: trench, geotextile, ag pipe and 14mm screenings or scoria, finished with soil and turf."
+      },
+      {
+        "q": "Downpipes and surface water",
+        "a": "Solid pipe to a pit or soakage well filled with screenings."
+      }
     ],
     "faqs": [
-      {"q": "What stone goes around ag pipe?", "a": "Scoria or 14mm screenings. Both are free draining with no fines. Scoria is lighter and the usual choice behind walls; screenings are the usual choice in trenches."},
-      {"q": "What sizes of ag pipe do you stock?", "a": "Several sizes of agricultural pipe plus plastic fittings. Call the yard with the job and we will confirm what is on the shelf."},
-      {"q": "How much scoria do I need for a trench?", "a": "Multiply trench length by width by depth in metres for cubic metres, then use the scoria calculator to convert to tonnes or bags."},
-      {"q": "Do you deliver small drainage orders?", "a": "Yes. Large and small orders are accepted, and pipe and fittings can ride along with a bulk delivery of stone."}
+      {
+        "q": "What stone goes around ag pipe?",
+        "a": "Scoria or 14mm screenings. Both are free draining with no fines. Scoria is lighter and the usual choice behind walls; screenings are the usual choice in trenches."
+      },
+      {
+        "q": "What sizes of ag pipe do you stock?",
+        "a": "Several sizes of agricultural pipe plus plastic fittings. Call the yard with the job and we will confirm what is on the shelf."
+      },
+      {
+        "q": "How much scoria do I need for a trench?",
+        "a": "Multiply trench length by width by depth in metres for cubic metres, then use the scoria calculator to convert to tonnes or bags."
+      },
+      {
+        "q": "Do you deliver small drainage orders?",
+        "a": "Yes. Large and small orders are accepted, and pipe and fittings can ride along with a bulk delivery of stone."
+      }
     ],
-    "related": ["rock-and-stone", "building-materials", "concrete-products"]
+    "related": [
+      "rock-and-stone",
+      "building-materials",
+      "concrete-products"
+    ]
   }
 ]
