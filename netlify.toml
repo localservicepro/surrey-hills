@@ -1,0 +1,2997 @@
+# Surrey Hills Garden Supplies — Netlify config (generated redirects block by scripts/build-redirects.js)
+[build]
+  publish = "site"
+  command = "npm run build"
+
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/order/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/author/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# ---- 301 redirects (old WordPress URLs → new URL map). Also in site/_redirects. ----
+[[redirects]]
+  from = "/trench-mesh-mount-waverley"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trench-mesh-mount-waverley/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-malvern-east"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-malvern-east/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-and-top-dressing-kew"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-and-top-dressing-kew/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tennis-court-sand-glen-waverley"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tennis-court-sand-glen-waverley/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/starter-bars-in-camberwell"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/starter-bars-in-camberwell/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shape-scaper-camberwell"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shape-scaper-camberwell/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tan-bark-blackburn"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tan-bark-blackburn/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/paking-sand-in-richmond"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/paking-sand-in-richmond/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-doncaster"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-doncaster/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-box-mont-albert"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-box-mont-albert/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-lime-park-orchards"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-lime-park-orchards/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-donvale"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-donvale/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-mount-waverley"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-mount-waverley/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fake-grass-hawthorn"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fake-grass-hawthorn/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-sand-in-chadstone"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-sand-in-chadstone/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-in-burwood"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-in-burwood/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-blocks-in-blackburn-south"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-blocks-in-blackburn-south/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-caulfield"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-caulfield/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-blackburn-south"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-blackburn-south/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blockwork-in-burwood"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blockwork-in-burwood/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand-in-doncaster"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand-in-doncaster/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trench-mesh-kew"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trench-mesh-kew/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-burwood-east"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-burwood-east/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-blackburn-north"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-blackburn-north/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-eaglemont"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-eaglemont/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/starter-bars-in-glen-waverley"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/starter-bars-in-glen-waverley/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soil-in-bentleigh"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soil-in-bentleigh/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-mount-waverley"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-mount-waverley/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-burwood-east"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-burwood-east/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sandy-loam-vermont"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sandy-loam-vermont/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/road-base-balwyn-north"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/road-base-balwyn-north/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-bark-hawthorn-east"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-bark-hawthorn-east/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-toorak"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-toorak/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-mont-albert"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-mont-albert/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-burwood"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-burwood/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-soil-ormand"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-soil-ormand/"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-templestowe"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-templestowe/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-surrey-hills"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-surrey-hills/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-blackburn-north"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-blackburn-north/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-liime-mount-waverley"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-liime-mount-waverley/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-lime-camberwell"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/liquid-lime-camberwell/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gravel-nunuwading"
+  to = "/rock-and-stone/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gravel-nunuwading/"
+  to = "/rock-and-stone/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gibco-camberwell"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gibco-camberwell/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-box-hill-2"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-box-hill-2/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-caulfield-north-2"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-caulfield-north-2/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-malvern-east"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-malvern-east/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-kew"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-soil-kew/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-camberwell"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-camberwell/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-box-hill-north"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-edging-box-hill-north/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drainage-supplies-glen-iris"
+  to = "/drainage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drainage-supplies-glen-iris/"
+  to = "/drainage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-elwood"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-elwood/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-eltham"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-eltham/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-camberwell"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-camberwell/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-abbortsford"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-abbortsford/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coreflute-sheets-glen-waverley"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coreflute-sheets-glen-waverley/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/core-fill-concrete-blocks-malvern"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/core-fill-concrete-blocks-malvern/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-ashburton"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-ashburton/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/carnegie-mulch"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/carnegie-mulch/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-kew"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-kew/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-blackburn"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-blackburn/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-ashburton"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-ashburton/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-richmond"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-richmond/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-mount-waverley"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-mount-waverley/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-heidelberg"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-heidelberg/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-camberwell"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-camberwell/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil-albert-park"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil-albert-park/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-mulch-camberwell"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-mulch-camberwell/"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-mont-albert"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-mont-albert/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-chadstone"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-soil-in-chadstone/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-chadstone"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-chadstone/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-caulfield-north"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-caulfield-north/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/everedge-edging-hawthorn"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/everedge-edging-hawthorn/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-doncaster"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-doncaster/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mesh-templestowe"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mesh-templestowe/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compost-mulch-in-canterbury"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compost-mulch-in-canterbury/"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-glen-waverley"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-glen-waverley/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashwood-2"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashwood-2/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-vermont"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-vermont/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-doncaster"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-doncaster/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand-glen-iris"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand-glen-iris/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand-doncaster"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand-doncaster/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-kew"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-kew/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-burwood"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-burwood/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-in-balwyn"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-in-balwyn/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/screenings-prahran"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/screenings-prahran/"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-mont-albert"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-mont-albert/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-burwood-east"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-burwood-east/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-blackburn"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-blackburn/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fake-grass-in-fairfield"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fake-grass-in-fairfield/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-2"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-2/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-in-malvern"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-in-malvern/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-mont-albert"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-mont-albert/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-forest-hill"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-forest-hill/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-burwood"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-supplies-burwood/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-bulleen"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-bulleen/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/astro-turf-in-glen-iris"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/astro-turf-in-glen-iris/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-nunawading"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-nunawading/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/playground-mulch-east-malvern"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/playground-mulch-east-malvern/"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/star-pickets-ashburton"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/star-pickets-ashburton/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/stabilised-crushed-rock-malvern-east"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/stabilised-crushed-rock-malvern-east/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-balwyn"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-balwyn/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sandy-loam-mt-waverley"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sandy-loam-mt-waverley/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/richmond-bright-and-light"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/richmond-bright-and-light/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reinforcing-mesh-box-hill-north"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reinforcing-mesh-box-hill-north/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/playground-mulch-blackburn-north"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/playground-mulch-blackburn-north/"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lilydale-toppings-forrest-hill"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lilydale-toppings-forrest-hill/"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-box-hill"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-box-hill/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gap-sand-ashwood"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gap-sand-ashwood/"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/driveway-toppings-glen-waverely"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/driveway-toppings-glen-waverely/"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coreflute-sheets-nunawading"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coreflute-sheets-nunawading/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coloured-mulch-in-malvern-east"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coloured-mulch-in-malvern-east/"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/builders-plastic-surrey-hills"
+  to = "/concrete-products/plastic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/builders-plastic-surrey-hills/"
+  to = "/concrete-products/plastic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/besser-blocks-blackburn-south"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/besser-blocks-blackburn-south/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aggregate-glen-iris"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aggregate-glen-iris/"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tan-bark-mont-albert"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tan-bark-mont-albert/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/retaining-wall-sleeper-steel-kew"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/retaining-wall-sleeper-steel-kew/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/road-base-canterbury"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/road-base-canterbury/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-san-toorak"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-san-toorak/"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/expansion-foam-doncaster"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/expansion-foam-doncaster/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-or-washed-sand-brighton"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-or-washed-sand-brighton/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soil-in-camberwell"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soil-in-camberwell/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-box-hill"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-box-hill/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mortar-balwyn-north"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mortar-balwyn-north/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf-mount-waverly"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf-mount-waverly/"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-burwood"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-burwood/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-glen-huntly"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-glen-huntly/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rapid-set-cement-mckinnon"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rapid-set-cement-mckinnon/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-hampton"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/synthetic-grass-hampton/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand-oakleigh"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand-oakleigh/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-grass-benleigh"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-grass-benleigh/"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-carnegie"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-carnegie/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-chadstone"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treated-pine-sleepers-chadstone/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-products-eaglemont"
+  to = "/concrete-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-products-eaglemont/"
+  to = "/concrete-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/buffalo-turf-murrumbeena"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/buffalo-turf-murrumbeena/"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pavers-elwood"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pavers-elwood/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bluestone-st-kilda"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bluestone-st-kilda/"
+  to = "/building-materials/building-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-sand-2"
+  to = "/blog/kiln-dried-sand-applications/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-sand-2/"
+  to = "/blog/kiln-dried-sand-applications/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lilydale-toppings-bulleen"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lilydale-toppings-bulleen/"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drainage-products-in-south-yarra"
+  to = "/drainage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drainage-products-in-south-yarra/"
+  to = "/drainage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bricklaying-tools-doncaster-east"
+  to = "/tool-shop/tools/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bricklaying-tools-doncaster-east/"
+  to = "/tool-shop/tools/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/1-4-minus-in-collingwood"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/1-4-minus-in-collingwood/"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-malvern"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/brick-sand-malvern/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-glen-waverley"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/general-purpose-cement-glen-waverley/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/off-white-cement-nunawading"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/off-white-cement-nunawading/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-pine-mont-albert-north"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tan-bark-pine-mont-albert-north/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/richmond-washed-sand"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/richmond-washed-sand/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tuscan-toppings-mount-waverly"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tuscan-toppings-mount-waverly/"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf-box-hill-north"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf-box-hill-north/"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-hawthorn"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock-hawthorn/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil-box-hill-south"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil-box-hill-south/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-blackburn-north"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-in-blackburn-north/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/screenings-ashwood"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/screenings-ashwood/"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/premium-organic-soil-ashburton"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/premium-organic-soil-ashburton/"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-forrest-hill"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria-forrest-hill/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-mulch-surrey-hills"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-mulch-surrey-hills/"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crusher-dust-malvern-east"
+  to = "/rock-and-stone/crusher-dust/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crusher-dust-malvern-east/"
+  to = "/rock-and-stone/crusher-dust/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-mulch-glen-iris"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-mulch-glen-iris/"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tank-bark-balwyn"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pine-tank-bark-balwyn/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/toorak-mulch"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/toorak-mulch/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-canterbury"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/packing-sand-in-canterbury/"
+  to = "/sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kew-kiln-dried-sand"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kew-kiln-dried-sand/"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/deepdene-washed-sand"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/deepdene-washed-sand/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-sand-in-doncaster"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-sand-in-doncaster/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mont-albert-triple-washed-sand"
+  to = "/sand/triple-washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mont-albert-triple-washed-sand/"
+  to = "/sand/triple-washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/burwood-crushed-rock"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/burwood-crushed-rock/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/camberwell-soil"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/camberwell-soil/"
+  to = "/soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blackburn-mulch"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blackburn-mulch/"
+  to = "/mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/box-hill-brick-sand"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/box-hill-brick-sand/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/balwyn-north-crushed-rock"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/balwyn-north-crushed-rock/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-kind-of-sand-to-use"
+  to = "/blog/what-kind-of-sand-to-use/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-kind-of-sand-to-use/"
+  to = "/blog/what-kind-of-sand-to-use/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/which-mulch-do-i-use-around-my-home"
+  to = "/blog/which-mulch-do-i-use-around-my-home/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/which-mulch-do-i-use-around-my-home/"
+  to = "/blog/which-mulch-do-i-use-around-my-home/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-malvern"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-malvern/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashwood"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashwood/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-doncaster"
+  to = "/areas/doncaster/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-doncaster/"
+  to = "/areas/doncaster/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashburton"
+  to = "/areas/ashburton/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-ashburton/"
+  to = "/areas/ashburton/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-toorak"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-toorak/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-glen-waverley"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-glen-waverley/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-doncaster-east"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-doncaster-east/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-nunawading"
+  to = "/areas/nunawading/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-nunawading/"
+  to = "/areas/nunawading/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-south-yarra"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-south-yarra/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-richmond"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-richmond/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-vermont"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-vermont/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-templestowe"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-templestowe/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-deepdene"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-deepdene/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-burwood"
+  to = "/areas/burwood/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-burwood/"
+  to = "/areas/burwood/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-kew"
+  to = "/areas/kew/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-kew/"
+  to = "/areas/kew/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-glen-iris"
+  to = "/areas/glen-iris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-glen-iris/"
+  to = "/areas/glen-iris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-mount-waverley"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-mount-waverley/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-malvern-east"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-malvern-east/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-balwyn"
+  to = "/areas/balwyn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-balwyn/"
+  to = "/areas/balwyn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-box-hill"
+  to = "/areas/box-hill/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-box-hill/"
+  to = "/areas/box-hill/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-canterbury"
+  to = "/areas/canterbury/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-canterbury/"
+  to = "/areas/canterbury/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-hawthorn"
+  to = "/areas/hawthorn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-hawthorn/"
+  to = "/areas/hawthorn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-mont-albert"
+  to = "/areas/mont-albert/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-mont-albert/"
+  to = "/areas/mont-albert/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-surrey-hills"
+  to = "/areas/surrey-hills/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-surrey-hills/"
+  to = "/areas/surrey-hills/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-balwyn-north"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-balwyn-north/"
+  to = "/areas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-blackburn"
+  to = "/areas/blackburn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-blackburn/"
+  to = "/areas/blackburn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-camberwell"
+  to = "/areas/camberwell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-supplies-in-camberwell/"
+  to = "/areas/camberwell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-products"
+  to = "/blog/mulch-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mulch-products/"
+  to = "/blog/mulch-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-soil-for-a-vegetable-garden"
+  to = "/blog/what-soil-for-a-vegetable-garden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-soil-for-a-vegetable-garden/"
+  to = "/blog/what-soil-for-a-vegetable-garden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/low-maintenance-garden"
+  to = "/blog/low-maintenance-garden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/low-maintenance-garden/"
+  to = "/blog/low-maintenance-garden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/large-rubble-rock"
+  to = "/rock-and-stone/large-rubble-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/large-rubble-rock/"
+  to = "/rock-and-stone/large-rubble-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/miscellaneous-items"
+  to = "/tool-shop/miscellaneous-items/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/miscellaneous-items/"
+  to = "/tool-shop/miscellaneous-items/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-bags"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix-bags/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/edging"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/edging/"
+  to = "/grass/lawn-edging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lawn-care"
+  to = "/grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lawn-care/"
+  to = "/grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fertilizers"
+  to = "/tool-shop/garden-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fertilizers/"
+  to = "/tool-shop/garden-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/instant-turf/"
+  to = "/grass/instant-turf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/seed"
+  to = "/grass/lawn-seed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/seed/"
+  to = "/grass/lawn-seed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-items"
+  to = "/grass/artificial-grass-items/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artificial-grass-items/"
+  to = "/grass/artificial-grass-items/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-products"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/building-products/"
+  to = "/building-materials/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-products"
+  to = "/tool-shop/garden-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/garden-products/"
+  to = "/tool-shop/garden-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/safety-products"
+  to = "/tool-shop/safety-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/safety-products/"
+  to = "/tool-shop/safety-products/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/smart-grass"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/smart-grass/"
+  to = "/grass/smart-grass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tools"
+  to = "/tool-shop/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tools/"
+  to = "/tool-shop/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bar-chairs"
+  to = "/concrete-products/bar-chairs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bar-chairs/"
+  to = "/concrete-products/bar-chairs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/plastic"
+  to = "/concrete-products/plastic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/plastic/"
+  to = "/concrete-products/plastic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/additives"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/additives/"
+  to = "/concrete-products/additives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/steel"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/steel/"
+  to = "/concrete-products/steel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cement"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cement/"
+  to = "/concrete-products/cement/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/concrete-mix/"
+  to = "/concrete-products/concrete-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/eco-base-crusher-dust"
+  to = "/rock-and-stone/crusher-dust/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/eco-base-crusher-dust/"
+  to = "/rock-and-stone/crusher-dust/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7mm-aggregate"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/7mm-aggregate/"
+  to = "/rock-and-stone/7mm-aggregate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/scoria/"
+  to = "/rock-and-stone/scoria/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/14mm-screenings"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/14mm-screenings/"
+  to = "/rock-and-stone/14mm-screenings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tuscan-toppings"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tuscan-toppings/"
+  to = "/rock-and-stone/tuscan-toppings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crushed-rock/"
+  to = "/rock-and-stone/crushed-rock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-sand"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kiln-dried-sand/"
+  to = "/sand/kiln-dried-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tripple-washed-sand"
+  to = "/sand/triple-washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tripple-washed-sand/"
+  to = "/sand/triple-washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/washed-sand/"
+  to = "/sand/washed-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/white-brick-sand/"
+  to = "/sand/white-brick-sand/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/native-garden-mix"
+  to = "/soil/native-garden-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/native-garden-mix/"
+  to = "/soil/native-garden-mix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blended-soil/"
+  to = "/soil/blended-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soft-play"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soft-play/"
+  to = "/mulch/soft-play-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/premium-organic-soil"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/premium-organic-soil/"
+  to = "/soil/premium-organic-soil/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-mulch"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/organic-mulch/"
+  to = "/mulch/organic-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-midnight-mulch"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/black-midnight-mulch/"
+  to = "/mulch/black-midnight-mulch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20mm-pine-bark"
+  to = "/mulch/20mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/20mm-pine-bark/"
+  to = "/mulch/20mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10mm-pine-bark"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10mm-pine-bark/"
+  to = "/mulch/10mm-pine-bark/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/example"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/example/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sample-page"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sample-page/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feed"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feed/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/comments/feed"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/comments/feed/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wp-json/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wp-content/uploads/*"
+  to = "/"
+  status = 301
+  force = true

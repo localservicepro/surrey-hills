@@ -1,0 +1,36 @@
+{
+  "name": "Surrey Hills Garden Supplies",
+  "shortName": "SHGS",
+  "legalName": "Surrey Hills Garden Supplies",
+  "abn": "{{ABN}}",
+  "tradingSince": 2012,
+  "phoneDisplay": "(03) 9890 3901",
+  "phoneTel": "+61398903901",
+  "email": "info@surreyhillsgardensupplies.com.au",
+  "address": {
+    "streetNumber": "{{STREET_NUMBER}}",
+    "streetName": "Canterbury Road",
+    "suburb": "Surrey Hills",
+    "state": "VIC",
+    "postcode": "3127",
+    "country": "AU",
+    "formatted": "{{STREET_NUMBER}} Canterbury Road, Surrey Hills VIC 3127"
+  },
+  "geo": { "latitude": "{{GEO_LAT}}", "longitude": "{{GEO_LNG}}" },
+  "hours": "{{HOURS}}",
+  "openingHoursSpecification": "{{HOURS_SCHEMA}}",
+  "website": "https://surreyhillsgardensupplies.com.au",
+  "gbpUrl": "{{GBP_URL}}",
+  "mapEmbedQuery": "Surrey Hills Garden Supplies, Canterbury Road, Surrey Hills VIC 3127",
+  "social": {
+    "facebook": "https://facebook.com/surreyhillsgardensupplies",
+    "instagram": "https://instagram.com/surreyhillsgardensupplies"
+  },
+  "deliveryPromise": "Deliveries in less than 2 hours",
+  "deliveryPromiseLong": "Deliveries in less than 2 hours — put us to the test",
+  "clientContact": "{{CLIENT_CONTACT}}",
+  "schemaTypes": ["HardwareStore", "GardenStore"],
+  "priceRange": "$$",
+  "logo": "/assets/img/logo/surrey-hills-garden-supplies-logo.png",
+  "ogImage": "/assets/img/og-default.jpg"
+}

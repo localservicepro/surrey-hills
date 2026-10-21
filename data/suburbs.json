@@ -1,0 +1,17 @@
+[
+  {"slug":"surrey-hills","name":"Surrey Hills","postcode":"3127","distanceKm":0,"driveMins":"0","status":"UNCONFIRMED"},
+  {"slug":"box-hill","name":"Box Hill","postcode":"3128","distanceKm":2.5,"driveMins":"5–10","status":"UNCONFIRMED"},
+  {"slug":"canterbury","name":"Canterbury","postcode":"3126","distanceKm":1.5,"driveMins":"5","status":"UNCONFIRMED"},
+  {"slug":"camberwell","name":"Camberwell","postcode":"3124","distanceKm":3.5,"driveMins":"10","status":"UNCONFIRMED"},
+  {"slug":"balwyn","name":"Balwyn","postcode":"3103","distanceKm":3,"driveMins":"8–10","status":"UNCONFIRMED"},
+  {"slug":"mont-albert","name":"Mont Albert","postcode":"3127","distanceKm":1,"driveMins":"3–5","status":"UNCONFIRMED"},
+  {"slug":"blackburn","name":"Blackburn","postcode":"3130","distanceKm":4.5,"driveMins":"10–12","status":"UNCONFIRMED"},
+  {"slug":"burwood","name":"Burwood","postcode":"3125","distanceKm":4,"driveMins":"10","status":"UNCONFIRMED"},
+  {"slug":"hawthorn","name":"Hawthorn","postcode":"3122","distanceKm":6.5,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"kew","name":"Kew","postcode":"3101","distanceKm":6,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"doncaster","name":"Doncaster","postcode":"3108","distanceKm":6.5,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"glen-iris","name":"Glen Iris","postcode":"3146","distanceKm":6,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"ashburton","name":"Ashburton","postcode":"3147","distanceKm":6,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"nunawading","name":"Nunawading","postcode":"3131","distanceKm":6.5,"driveMins":"15","status":"UNCONFIRMED"},
+  {"slug":"ringwood","name":"Ringwood","postcode":"3134","distanceKm":11,"driveMins":"20–25","status":"UNCONFIRMED"}
+]
