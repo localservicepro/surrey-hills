@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 *.log
 lighthouse/*.html
+lighthouse/*.json
+lighthouse/recheck/
+lighthouse/run.log
+lighthouse/shots/*.png

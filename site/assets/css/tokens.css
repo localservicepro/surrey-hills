@@ -10,6 +10,7 @@
   --c-green: #8cc73f;        /* logo green — primary action colour */
   --c-green-dark: #6ea52a;   /* hover/pressed (darkened logo green, not a new hue) */
   --c-green-tint: #eef7e1;   /* 10% tint for highlights */
+  --c-green-text: #3f6a12;   /* AA-contrast green for small text/links on white (logo green hue, darkened) */
   --c-white: #ffffff;
 
   /* Dark neutral base (sampled: soil photo #171209, bluestone #494741) */

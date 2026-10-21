@@ -190,9 +190,9 @@ function footer() {
           <a href="${biz.social.instagram}" aria-label="Instagram" rel="noopener" target="_blank">${I.ig}</a>
         </div>
       </div>
-      <div><h4>Products</h4><ul>${catLinks}<li><a href="/calculator/">Volume calculator</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/delivery/">Delivery</a></li><li><a href="/contact/">Contact</a></li><li><a href="/blog/">Blog</a></li><li><a href="/order/">Order online</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
-      <div><h4>We deliver to</h4><ul>${subLinks}<li><a href="/areas/">All areas</a></li></ul></div>
+      <div><h3 class="footer__h">Products</h3><ul>${catLinks}<li><a href="/calculator/">Volume calculator</a></li></ul></div>
+      <div><h3 class="footer__h">Company</h3><ul><li><a href="/about/">About</a></li><li><a href="/delivery/">Delivery</a></li><li><a href="/contact/">Contact</a></li><li><a href="/blog/">Blog</a></li><li><a href="/order/">Order online</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
+      <div><h3 class="footer__h">We deliver to</h3><ul>${subLinks}<li><a href="/areas/">All areas</a></li></ul></div>
     </div>
     <div class="footer__bottom"><span>© ${new Date().getFullYear()} ${esc(biz.name)}. ABN ${esc(biz.abn)}.</span><span>${esc(biz.address.formatted)}</span></div>
   </div>
@@ -431,7 +431,7 @@ ${faqSection(p.faqs, `${p.name} questions`)}
   if (realPrice) productSchema.offers = { '@type': 'Offer', priceCurrency: 'AUD', price: String(realPrice[1]).replace(/[^0-9.]/g, ''), availability: 'https://schema.org/InStock', url: `${BASE}${prodPath(p)}` };
   const wc = words(p.intro) + words(p.bodyHtml) + (p.faqs || []).reduce((a, f) => a + words(f.q + ' ' + f.a), 0);
   if (wc < 150) warnings.push(`thin copy (${wc} words): ${prodPath(p)}`);
-  add({ path: prodPath(p), title: p.title, description: p.metaDescription, hero: h, body, calculator: !!p.density, crumbs, ogType: 'product', ogImage: productSchema.image ? productSchema.image.replace(BASE, '') : null,
+  add({ path: prodPath(p), title: p.title, description: p.metaDescription, hero: h, body, calculator: !!p.density, crumbs, preload: resolveImg(`products/${p.slug}-1`) || resolveImg(p.fallbackImage), ogType: 'product', ogImage: productSchema.image ? productSchema.image.replace(BASE, '') : null,
     schemas: [breadcrumb(crumbs), productSchema].concat(p.faqs && p.faqs.length ? [faqSchema(p.faqs)] : []) });
 }
 

@@ -19,7 +19,7 @@ const dims = fs.existsSync(dimsPath) ? JSON.parse(fs.readFileSync(dimsPath)) : {
 
 async function convert(f, out, w, q) {
   if (sharp) {
-    await sharp(f).rotate().resize({ width: w, withoutEnlargement: true }).webp({ quality: q, effort: 5 }).toFile(out);
+    await sharp(f).rotate().resize({ width: w, withoutEnlargement: true }).webp({ quality: q, effort: 6 }).toFile(out);
     const m = await sharp(out).metadata(); return [m.width, m.height];
   }
   const r = cp.execFileSync('python3', ['-I', '-c', `
@@ -39,7 +39,7 @@ im.save(sys.argv[2],'WEBP',quality=int(sys.argv[4]),method=6); print(im.width, i
       const base = f.replace(/\.(jpe?g|png|webp)$/i, '');
       for (const w of job.sizes) {
         const out = path.join(outDir, `${base}-${w}.webp`);
-        const [cw, ch] = await convert(path.join(srcDir, f), out, w, w >= 1600 ? 78 : 76);
+        const [cw, ch] = await convert(path.join(srcDir, f), out, w, w >= 1600 ? 72 : (w === 800 ? 70 : 68));
         if (w === 800) dims[job.key + base + '-800'] = [cw, ch];
       }
       n++;
