@@ -203,9 +203,11 @@ function calcProductsJson() {
 }
 
 /* ---------------- shared sections ---------------- */
-function hero({ h1, sub, text, imgBase, imgAlt, ctas, badges, page, crumbs }) {
+function hero(opts) {
+  const { h1, sub, text, imgBase, imgAlt, ctas, badges, page, crumbs } = opts;
   const r = resolveImg(imgBase) || resolveImg('yard-01');
-  const media = r ? `<div class="hero__media"><img src="${r.src}" srcset="${r.srcset}" sizes="100vw" alt="${esc(imgAlt || '')}" fetchpriority="high" decoding="async"${r.w ? ` width="${r.w}" height="${r.h}"` : ''}></div>` : '';
+  const video = (opts.video && fs.existsSync(path.join(root, 'assets/video/hero.mp4'))) ? `<video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="${r ? r.src.replace('-800', '-1600') : ''}" aria-hidden="true"><source src="/assets/video/hero.webm" type="video/webm"><source src="/assets/video/hero.mp4" type="video/mp4"></video>` : '';
+  const media = r ? `<div class="hero__media"><img class="${video ? '' : 'hero__kb'}" src="${r.src}" srcset="${r.srcset}" sizes="100vw" alt="${esc(imgAlt || '')}" fetchpriority="high" decoding="async"${r.w ? ` width="${r.w}" height="${r.h}"` : ''}>${video}</div>` : '';
   return { html: `<section class="hero ${page ? 'hero--page' : ''} cut-bottom">${media}<div class="wrap hero__in">${crumbs ? '{{CRUMBS}}' : ''}<h1 class="h-anim">${h1}</h1>${sub ? `<p class="hero__sub h-anim">${sub}</p>` : ''}${text ? `<p class="hero__text h-anim">${text}</p>` : ''}${ctas ? `<div class="hero__cta h-anim">${ctas}</div>` : ''}${badges ? `<div class="hero__badges h-anim">${badges.map(b => `<span>${esc(b)}</span>`).join('')}</div>` : ''}</div></section>`, preload: r };
 }
 const heroCtas = `<a class="btn btn--primary" href="tel:${biz.phoneTel}">${I.phone}Call ${esc(biz.phoneDisplay)}</a><a class="btn btn--ghost" href="/contact/#quote">Get a quote</a>`;
@@ -272,9 +274,9 @@ function add(p) { pages.push(p); }
     h1: 'Garden &amp; Landscape Supplies in Surrey Hills, Melbourne',
     sub: 'Deliveries in less than 2 hours — put us to the test',
     text: `Mulch, soil, sand, rock, cement, synthetic grass, tools and building materials from our yard on Canterbury Road. Bagged for pickup, loaded into your trailer, or delivered in bulk across Melbourne's eastern suburbs. Trade and public welcome.`,
-    imgBase: resolveImg('gen-hero-yard') ? 'gen-hero-yard' : 'yard-01',
-    imgAlt: 'Surrey Hills Garden Supplies yard with bays of mulch, soil, sand and rock, bulk delivery Melbourne east',
-    ctas: heroCtas, badges: ['Trading since ' + biz.tradingSince, 'Trade & public', 'Australian distributor of Smart Grass']
+    imgBase: resolveImg('products/gen-brand-yard') ? 'products/gen-brand-yard' : (resolveImg('products/gen-hero-yard') ? 'products/gen-hero-yard' : 'yard-01'),
+    imgAlt: 'Surrey Hills Garden Supplies yard: loader filling a branded tipper truck beside bays of mulch, soil, sand and rock',
+    ctas: heroCtas, badges: ['Trading since ' + biz.tradingSince, 'Trade & public', 'Australian distributor of Smart Grass'], video: true
   });
   const tiles = categories.map((c, i) => `<a class="tile reveal" href="/${c.slug}/">${img(c.image, c.imageAlt, { sizes: '(min-width: 960px) 33vw, (min-width: 640px) 50vw, 100vw' })}<div class="tile__body"><h3>${esc(c.name)}</h3><p>${esc(c.tile)}</p></div><span class="tile__bar"></span></a>`).join('');
   const topBulk = ['10mm-pine-bark', 'blended-soil', 'washed-sand', 'crushed-rock', 'scoria', 'kiln-dried-sand'].map(s => prodBySlug[s]);
@@ -289,31 +291,49 @@ ${fulfilmentStrip()}
   <div class="grid grid--3">${topBulk.map(p => productCard(p, `${p.name} bulk delivery Surrey Hills, Melbourne east`)).join('')}</div>
 </div></section>
 <section class="section" aria-labelledby="how-h"><div class="wrap">
-  <div class="split">
-    <div class="reveal">${img(resolveImg('gen-tipper-delivery') ? 'gen-tipper-delivery' : 'yard-01', 'Tipper truck delivering bulk mulch to a driveway in Melbourne\'s eastern suburbs', { sizes: '(min-width: 900px) 50vw, 100vw' })}</div>
-    <div class="reveal">
-      <p class="eyebrow">How we deliver</p><h2 id="how-h">Three ways to get it home</h2>
-      <ul class="checklist">
-        <li><strong>Bagged for pickup.</strong> Every bulk product is bagged into 15kg bags at the yard (20kg for kiln dried sand, one-tonne bulker bags for kiln dried sand). Grab a few for a top-up.</li>
-        <li><strong>Bulk delivered.</strong> Order by the cubic metre and one of our tippers brings it to the kerb, driveway or site. In the eastern suburbs we aim for under two hours.</li>
-        <li><strong>BYO trailer.</strong> Back your trailer up to the bay and we load it with the loader. A 6x4 trailer carries about half a cubic metre.</li>
-      </ul>
-      <p><a class="btn btn--dark" href="/delivery/">Delivery zones &amp; truck sizes</a></p>
+  <div class="section-head"><p class="eyebrow">How we deliver</p><h2 id="how-h">Three ways to get it home</h2><p class="lede">Same bays, same product, your choice of how it travels. Pick the one that suits the job size.</p></div>
+  <div class="how">
+    <ol class="steps">
+      <li class="step reveal"><div class="step__icon">${I.bag}</div><div class="step__num">01</div><h3>Bagged for pickup</h3><p>Every bulk product is bagged into 15kg bags at the yard (20kg for kiln dried sand, 1-tonne bulker bags). Grab a few for a top-up.</p><span class="step__tag">Small jobs · top-ups</span></li>
+      <li class="step reveal"><div class="step__icon">${I.trailer}</div><div class="step__num">02</div><h3>BYO trailer</h3><p>Back your trailer up to the bay and we load it with the loader. A 6×4 trailer carries about half a cubic metre.</p><span class="step__tag">Up to ~0.5 m³ per trip</span></li>
+      <li class="step reveal"><div class="step__icon">${I.truck}</div><div class="step__num">03</div><h3>Bulk delivered</h3><p>Order by the cubic metre and one of our tippers brings it to the kerb, driveway or site. Eastern suburbs: under two hours.</p><span class="step__tag">1 m³ and up · under 2 hrs</span></li>
+    </ol>
+    <div class="how__media reveal">
+      <figure class="how__photo">${img(resolveImg('products/gen-brand-trucks') ? 'products/gen-brand-trucks' : (resolveImg('products/gen-tipper-delivery') ? 'products/gen-tipper-delivery' : 'yard-01'), 'Surrey Hills Garden Supplies tipper truck and trailer loaded with mulch and sand at the yard', { sizes: '(min-width: 960px) 45vw, 100vw' })}<figcaption class="how__badge"><strong>&lt;<span data-count="2">2</span> hrs</strong><span>eastern suburbs delivery</span></figcaption></figure>
+      <figure class="how__photo how__photo--small">${img(resolveImg('products/gen-tipper-delivery') ? 'products/gen-tipper-delivery' : 'mulch-02', 'Tipper truck delivering bulk mulch to a driveway in the eastern suburbs of Melbourne', { sizes: '(min-width: 960px) 22vw, 50vw' })}</figure>
+      <figure class="how__photo how__photo--small">${img(resolveImg('products/gen-brand-bags') ? 'products/gen-brand-bags' : (resolveImg('products/gen-bags-15kg') ? 'products/gen-bags-15kg' : 'soil-04'), 'Pallets of 15kg bagged mulch and soil and a bulker bag ready for pickup at Surrey Hills Garden Supplies', { sizes: '(min-width: 960px) 22vw, 50vw' })}</figure>
     </div>
   </div>
+  <p style="margin-top:1.6rem"><a class="btn btn--dark" href="/delivery/">Delivery zones &amp; truck sizes</a> &nbsp; <a class="btn btn--ghost" href="/calculator/">${I.calc}Work out quantities</a></p>
+</div></section>
+<section class="stats-band" aria-label="The yard in numbers"><div class="wrap stats-band__in">
+  <div class="stat-big reveal"><strong><span data-count="${categories.length}">${categories.length}</span></strong><span>product ranges</span></div>
+  <div class="stat-big reveal"><strong><span data-count="${products.length}">${products.length}</span>+</strong><span>products on the yard</span></div>
+  <div class="stat-big reveal"><strong><span data-count="${suburbs.length}">${suburbs.length}</span></strong><span>eastern suburbs delivered to</span></div>
+  <div class="stat-big reveal"><strong>${biz.tradingSince}</strong><span>trading on Canterbury Road since</span></div>
 </div></section>
 <section class="section section--sand cut-both" aria-labelledby="calc-h"><div class="wrap">
   <div class="split split--rev">
     <div class="reveal">${calculatorHtml({ compact: true, heading: 'Quick volume calculator' })}</div>
-    <div class="reveal"><p class="eyebrow">Work it out</p><h2 id="calc-h">How many cubic metres, tonnes or bags?</h2><p>Measure the bed, pick a depth and a product. The calculator rounds up to the nearest quarter metre, converts to tonnes using the product's density and counts the bags. One cubic metre covers about 10 square metres at 100mm.</p><p><a class="btn btn--dark" href="/calculator/">Open the full calculator</a></p></div>
+    <div class="reveal"><p class="eyebrow">Work it out</p><h2 id="calc-h">How many cubic metres, tonnes or bags?</h2><p>Measure the bed, pick a depth and a product. The calculator rounds up to the nearest quarter metre, converts to tonnes using the product's density and counts the bags.</p>
+      <div class="coverage-chart" role="img" aria-label="One cubic metre covers 20 square metres at 50 millimetres, 13 at 75, 10 at 100 and 6.5 at 150"><p class="coverage-chart__title">What 1 m³ covers</p>
+        <div class="cbar"><span class="cbar__label">50 mm</span><span class="cbar__track"><span class="cbar__fill" style="--w:100%"></span></span><span class="cbar__val">20 m²</span></div>
+        <div class="cbar"><span class="cbar__label">75 mm</span><span class="cbar__track"><span class="cbar__fill" style="--w:65%"></span></span><span class="cbar__val">13 m²</span></div>
+        <div class="cbar"><span class="cbar__label">100 mm</span><span class="cbar__track"><span class="cbar__fill" style="--w:50%"></span></span><span class="cbar__val">10 m²</span></div>
+        <div class="cbar"><span class="cbar__label">150 mm</span><span class="cbar__track"><span class="cbar__fill" style="--w:33%"></span></span><span class="cbar__val">6.5 m²</span></div>
+      </div>
+      <p><a class="btn btn--dark" href="/calculator/">Open the full calculator</a></p></div>
   </div>
 </div></section>
 <section class="section" aria-labelledby="trust-h"><div class="wrap">
   <div class="section-head section-head--center"><p class="eyebrow">Why Surrey Hills</p><h2 id="trust-h">A local yard, not a call centre</h2></div>
+  <div class="trust-wrap">
+  ${resolveImg('products/gen-brand-storefront') ? `<figure class="trust__photo reveal">${img('products/gen-brand-storefront', 'Surrey Hills Garden Supplies yard entrance and signage on Canterbury Road', { sizes: '(min-width: 960px) 40vw, 100vw' })}</figure>` : ''}
   <div class="trust">
     <div class="trust__item reveal"><strong>Since ${biz.tradingSince}</strong><span>Supplying Melbourne's eastern suburbs from Canterbury Road, Surrey Hills.</span></div>
     <div class="trust__item reveal"><strong>Trade &amp; public</strong><span>Landscapers, builders and plumbers buy from the same bays as home gardeners. Ask about trade accounts.</span></div>
     <div class="trust__item reveal"><strong>Australian distributor of Smart Grass</strong><span>Synthetic lawn supplied Australia wide, with samples at the yard.</span></div>
+  </div>
   </div>
 </div></section>
 <section class="section section--alt" aria-labelledby="sup-h"><div class="wrap">
@@ -437,14 +457,14 @@ ${faqSection(p.faqs, `${p.name} questions`)}
 
 /* AREAS */
 (function areas() {
-  const h = hero({ h1: 'Garden Supplies Delivered Across Melbourne\'s East', text: 'Bulk mulch, soil, sand, rock and cement delivered from our Surrey Hills yard, usually in less than two hours. Pick your suburb for delivery times and the products people there order most.', imgBase: resolveImg('gen-tipper-delivery') ? 'gen-tipper-delivery' : 'yard-01', imgAlt: 'Tipper truck delivering garden supplies in Melbourne\'s eastern suburbs', ctas: heroCtas, page: true, crumbs: true });
+  const h = hero({ h1: 'Garden Supplies Delivered Across Melbourne\'s East', text: 'Bulk mulch, soil, sand, rock and cement delivered from our Surrey Hills yard, usually in less than two hours. Pick your suburb for delivery times and the products people there order most.', imgBase: resolveImg('products/gen-tipper-delivery') ? 'products/gen-tipper-delivery' : 'yard-01', imgAlt: 'Tipper truck delivering garden supplies in Melbourne\'s eastern suburbs', ctas: heroCtas, page: true, crumbs: true });
   const cards = suburbs.map(s => `<a class="card reveal" href="/areas/${s.slug}/"><div class="card__body"><h3>${esc(s.name)} ${esc(s.postcode)}</h3><p>${esc(s.intro)}</p><p class="small"><strong>About ${esc(s.driveMins)} min</strong> from the yard</p><span class="card__link">Delivery to ${esc(s.name)}</span></div></a>`).join('');
   const body = `<section class="section"><div class="wrap"><div class="section-head"><p class="eyebrow">Delivery zone (to be confirmed)</p><h2>Suburbs we deliver to</h2><p class="lede">The suburbs below are our core eastern-suburbs run. If yours is not listed, call ${esc(biz.phoneDisplay)}: we deliver further afield depending on the load and the truck schedule.</p></div><div class="grid grid--3">${cards}</div></div></section>`;
   add({ path: '/areas/', title: 'Delivery Areas | Garden Supplies Melbourne East | SHGS', description: 'Bulk garden and landscape supplies delivered to Surrey Hills, Box Hill, Camberwell, Balwyn, Kew, Doncaster, Blackburn and more, usually in under 2 hours.', hero: h.html, preload: h.preload, body, crumbs: [['Home', '/'], ['Delivery areas', '/areas/']], schemas: [breadcrumb([['Home', '/'], ['Delivery areas', '/areas/']])] });
   for (const s of suburbs) {
     const pops = (s.popularProducts || []).map(x => prodBySlug[x.split('/')[1]]).filter(Boolean);
     const crumbs = [['Home', '/'], ['Delivery areas', '/areas/'], [s.name, `/areas/${s.slug}/`]];
-    const hh = hero({ h1: esc(s.h1), text: esc(s.intro), imgBase: resolveImg('gen-tipper-delivery') ? 'gen-tipper-delivery' : 'yard-01', imgAlt: `Bulk garden supplies delivery to ${s.name} from Surrey Hills Garden Supplies`, ctas: heroCtas, page: true, crumbs: true });
+    const hh = hero({ h1: esc(s.h1), text: esc(s.intro), imgBase: resolveImg('products/gen-tipper-delivery') ? 'products/gen-tipper-delivery' : 'yard-01', imgAlt: `Bulk garden supplies delivery to ${s.name} from Surrey Hills Garden Supplies`, ctas: heroCtas, page: true, crumbs: true });
     const mapQ = encodeURIComponent(`${s.name} VIC ${s.postcode}`);
     const body = `
 <section class="section"><div class="wrap">
@@ -476,7 +496,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
 
 /* DELIVERY */
 (function delivery() {
-  const h = hero({ h1: 'Delivery from Surrey Hills', sub: 'Deliveries in less than 2 hours across the eastern suburbs', text: 'Bulk loads by the cubic metre on our tipper trucks, bagged product for pickup, or your own trailer loaded at the yard.', imgBase: resolveImg('gen-loader-trailer') ? 'gen-loader-trailer' : 'yard-01', imgAlt: 'Loader filling a customer trailer with soil at Surrey Hills Garden Supplies', ctas: heroCtas, page: true, crumbs: true });
+  const h = hero({ h1: 'Delivery from Surrey Hills', sub: 'Deliveries in less than 2 hours across the eastern suburbs', text: 'Bulk loads by the cubic metre on our tipper trucks, bagged product for pickup, or your own trailer loaded at the yard.', imgBase: resolveImg('products/gen-loader-trailer') ? 'products/gen-loader-trailer' : 'yard-01', imgAlt: 'Loader filling a customer trailer with soil at Surrey Hills Garden Supplies', ctas: heroCtas, page: true, crumbs: true });
   const body = `
 <section class="section"><div class="wrap wrap--narrow prose">
   <h2>How delivery works</h2>
@@ -588,7 +608,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
       <ul class="checklist"><li>Trading since ${biz.tradingSince}</li><li>Trade and public customers</li><li>Australian distributor of Smart Grass</li><li>Bagged, bulk or BYO trailer</li></ul>
       <p><a class="btn btn--primary" href="/contact/">Visit or contact the yard</a></p>
     </div>
-    <div class="reveal">${img(resolveImg('gen-loader-trailer') ? 'gen-loader-trailer' : 'yard-01', 'Loader filling a trailer with garden soil at Surrey Hills Garden Supplies', { sizes: '(min-width: 900px) 50vw, 100vw' })}</div>
+    <div class="reveal">${img(resolveImg('products/gen-loader-trailer') ? 'products/gen-loader-trailer' : 'yard-01', 'Loader filling a trailer with garden soil at Surrey Hills Garden Supplies', { sizes: '(min-width: 900px) 50vw, 100vw' })}</div>
   </div>
 </div></section>`;
   const crumbs = [['Home', '/'], ['About', '/about/']];

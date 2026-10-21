@@ -1,12 +1,107 @@
 [
-  {"file": "gen-hero-yard", "use": "Home hero background (16:9)", "model": "nano_banana_pro via Higgsfield", "prompt": "Wide establishing shot of a landscape supply yard in Melbourne's east: concrete bays of mulch, soil, sand, crushed rock and scoria, white tipper truck with tray raised, loader, overcast-bright light, no people, no text", "replaceWith": "A wide photo of the real Canterbury Road yard"},
-  {"file": "gen-tipper-delivery", "use": "How-we-deliver section, areas pages hero (3:2)", "model": "nano_banana_pro via Higgsfield", "prompt": "Small white tipper truck tipping pine bark mulch onto a suburban Melbourne driveway, brick house behind", "replaceWith": "A photo of one of SHGS's own trucks delivering"},
-  {"file": "gen-loader-trailer", "use": "Delivery page hero, About page (3:2)", "model": "nano_banana_pro via Higgsfield", "prompt": "Loader bucket pouring garden soil into a customer's 6x4 trailer in a supply yard", "replaceWith": "A photo of the yard loader filling a trailer"},
-  {"file": "gen-bags-15kg", "use": "Calculator page hero (3:2)", "model": "nano_banana_pro via Higgsfield", "prompt": "Stacked plain 15kg bags of mulch and soil on a pallet in a supply yard", "replaceWith": "A photo of SHGS bagged product"},
-  {"file": "gen-bulker-bag", "use": "Spare (bulker bag format illustration)", "model": "nano_banana_pro via Higgsfield", "prompt": "One-tonne bulker bag of kiln dried sand on a pallet in a supply yard", "replaceWith": "The real bulker bag photo (kiln-dried-sand-1.jpg from the current site already shows one)"},
-  {"file": "gen-drainage-hero", "use": "Spare drainage hero (3:2); product page uses the current site's ag-pipe photos", "model": "nano_banana_pro via Higgsfield", "prompt": "Coils of black slotted ag pipe, drainage pits, geotextile roll in front of a scoria bay", "replaceWith": "A photo of the drainage shelf at the yard"},
-  {"file": "gen-drainage-tile", "use": "Spare drainage tile (1:1)", "model": "nano_banana_pro via Higgsfield", "prompt": "Close crop of ag pipe coil and plastic pit with grate", "replaceWith": "As above"},
-  {"file": "gen-steel-hero", "use": "Spare steel/lintels hero (3:2) for the extended building range", "model": "nano_banana_pro via Higgsfield", "prompt": "Steel rack with galvanised lintels, H-beam sections, reo bar bundles and mesh sheets", "replaceWith": "A photo of the steel rack at the yard"},
-  {"file": "gen-steel-tile", "use": "Spare steel tile (1:1)", "model": "nano_banana_pro via Higgsfield", "prompt": "Close crop of galvanised lintels and H-beams in a rack", "replaceWith": "As above"},
-  {"file": "gen-crushed-rock-tile", "use": "Spare rock tile (1:1)", "model": "nano_banana_pro via Higgsfield", "prompt": "Bay of 20mm crushed bluestone with a loader bucket resting in it", "replaceWith": "A photo of the crushed rock bay"}
+  {
+    "file": "hero.mp4 (assets/video)",
+    "use": "Home hero video loop",
+    "model": "kling3_0 via Higgsfield (image-to-video from gen-brand-yard)",
+    "prompt": "Slow push-in: loader tips soil into the branded tipper, dust drifts, trees sway, overcast daylight, loop friendly",
+    "replaceWith": "Real footage of the yard and SHGS truck"
+  },
+  {
+    "file": "gen-brand-yard",
+    "use": "Home hero still / video poster (16:9)",
+    "model": "gpt_image_2_5 via Higgsfield, with the real logo as reference",
+    "prompt": "Busy yard: loader tipping soil into a tipper truck carrying the SHGS logo decal, bays of mulch, sand, rock and scoria behind",
+    "replaceWith": "A photo of the real yard with a real SHGS truck"
+  },
+  {
+    "file": "gen-brand-storefront",
+    "use": "Home 'Why Surrey Hills' section",
+    "model": "gpt_image_2_5 via Higgsfield, logo reference",
+    "prompt": "Street frontage with a dark fascia sign carrying the SHGS logo, bays and pallets inside the gate",
+    "replaceWith": "A photo of the real Canterbury Road entrance (the generated signage is illustrative only)"
+  },
+  {
+    "file": "gen-brand-trucks",
+    "use": "Home 'How we deliver' main photo",
+    "model": "gpt_image_2_5 via Higgsfield, logo reference",
+    "prompt": "Branded box trailer loaded with mulch and branded tipper loaded with sand, side by side in the yard",
+    "replaceWith": "A photo of SHGS's real truck and trailer"
+  },
+  {
+    "file": "gen-brand-bags",
+    "use": "Home 'How we deliver' small photo",
+    "model": "gpt_image_2_5 via Higgsfield, logo reference",
+    "prompt": "Pallets of 15kg bagged mulch and soil and a bulker bag under a shed with a small SHGS board",
+    "replaceWith": "A photo of the real bagging shed"
+  },
+  {
+    "file": "gen-hero-yard",
+    "use": "Home hero background (16:9)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Wide establishing shot of a landscape supply yard in Melbourne's east: concrete bays of mulch, soil, sand, crushed rock and scoria, white tipper truck with tray raised, loader, overcast-bright light, no people, no text",
+    "replaceWith": "A wide photo of the real Canterbury Road yard"
+  },
+  {
+    "file": "gen-tipper-delivery",
+    "use": "How-we-deliver section, areas pages hero (3:2)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Small white tipper truck tipping pine bark mulch onto a suburban Melbourne driveway, brick house behind",
+    "replaceWith": "A photo of one of SHGS's own trucks delivering"
+  },
+  {
+    "file": "gen-loader-trailer",
+    "use": "Delivery page hero, About page (3:2)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Loader bucket pouring garden soil into a customer's 6x4 trailer in a supply yard",
+    "replaceWith": "A photo of the yard loader filling a trailer"
+  },
+  {
+    "file": "gen-bags-15kg",
+    "use": "Calculator page hero (3:2)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Stacked plain 15kg bags of mulch and soil on a pallet in a supply yard",
+    "replaceWith": "A photo of SHGS bagged product"
+  },
+  {
+    "file": "gen-bulker-bag",
+    "use": "Spare (bulker bag format illustration)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "One-tonne bulker bag of kiln dried sand on a pallet in a supply yard",
+    "replaceWith": "The real bulker bag photo (kiln-dried-sand-1.jpg from the current site already shows one)"
+  },
+  {
+    "file": "gen-drainage-hero",
+    "use": "Spare drainage hero (3:2); product page uses the current site's ag-pipe photos",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Coils of black slotted ag pipe, drainage pits, geotextile roll in front of a scoria bay",
+    "replaceWith": "A photo of the drainage shelf at the yard"
+  },
+  {
+    "file": "gen-drainage-tile",
+    "use": "Spare drainage tile (1:1)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Close crop of ag pipe coil and plastic pit with grate",
+    "replaceWith": "As above"
+  },
+  {
+    "file": "gen-steel-hero",
+    "use": "Spare steel/lintels hero (3:2) for the extended building range",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Steel rack with galvanised lintels, H-beam sections, reo bar bundles and mesh sheets",
+    "replaceWith": "A photo of the steel rack at the yard"
+  },
+  {
+    "file": "gen-steel-tile",
+    "use": "Spare steel tile (1:1)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Close crop of galvanised lintels and H-beams in a rack",
+    "replaceWith": "As above"
+  },
+  {
+    "file": "gen-crushed-rock-tile",
+    "use": "Spare rock tile (1:1)",
+    "model": "nano_banana_pro via Higgsfield",
+    "prompt": "Bay of 20mm crushed bluestone with a loader bucket resting in it",
+    "replaceWith": "A photo of the crushed rock bay"
+  }
 ]
