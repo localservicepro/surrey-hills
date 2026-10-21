@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /order/
+Disallow: /author/
+Disallow: /thank-you/
+
+Sitemap: https://surreyhillsgardensupplies.com.au/sitemap.xml

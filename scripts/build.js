@@ -328,7 +328,7 @@ ${fulfilmentStrip()}
   <div class="section-head"><p class="eyebrow">Delivery areas</p><h2 id="areas-h">Bulk delivery across Melbourne's east</h2><p class="lede">Surrey Hills, Box Hill, Canterbury, Camberwell, Balwyn, Mont Albert, Blackburn, Burwood, Hawthorn, Kew, Doncaster, Glen Iris, Ashburton, Nunawading and Ringwood, usually in less than two hours.</p></div>
   ${suburbChips()}
 </div></section>`;
-  add({ path: '/', title: 'Garden Supplies Surrey Hills | Mulch, Soil, Sand, Rock | SHGS', description: "Mulch, soil, sand, rock, cement, synthetic grass and building supplies from Surrey Hills Garden Supplies. Bagged, bulk or BYO trailer. Delivered in under 2 hours.", hero: h.html, preload: h.preload, body, calculator: true, schemas: [{ '@context': 'https://schema.org', '@type': 'WebSite', url: `${BASE}/`, name: biz.name }] });
+  add({ path: '/', title: 'Garden Supplies Surrey Hills | Mulch, Soil, Sand & Rock', description: "Mulch, soil, sand, rock, cement, synthetic grass and building supplies in Surrey Hills. Bagged, bulk or BYO trailer. Delivered to Melbourne's east in under 2 hrs.", hero: h.html, preload: h.preload, body, calculator: true, schemas: [{ '@context': 'https://schema.org', '@type': 'WebSite', url: `${BASE}/`, name: biz.name }] });
 })();
 function supplierStrip() {
   const items = [];
@@ -499,7 +499,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
   <p>Yard and delivery hours: {{HOURS}}.</p>
 </div></section>`;
   const crumbs = [['Home', '/'], ['Delivery', '/delivery/']];
-  add({ path: '/delivery/', title: 'Delivery Zones, Trucks & Minimums | Surrey Hills Garden Supplies', description: 'How bulk delivery works from Surrey Hills Garden Supplies: zones across Melbourne\'s east, truck sizes, minimum orders, pickup and BYO trailer. Under 2 hours locally.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs)] });
+  add({ path: '/delivery/', title: 'Delivery Zones & Minimums | Surrey Hills Garden Supplies', description: 'How bulk delivery works from Surrey Hills Garden Supplies: zones across Melbourne\'s east, truck sizes, minimums, pickup and BYO trailer. Under 2 hrs locally.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs)] });
 })();
 
 /* CALCULATOR */
@@ -591,7 +591,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
   </div>
 </div></section>`;
   const crumbs = [['Home', '/'], ['About', '/about/']];
-  add({ path: '/about/', title: 'About Us | Surrey Hills Garden Supplies, Since 2012', description: 'Surrey Hills Garden Supplies is a garden, landscape and building supply yard on Canterbury Road serving Melbourne\'s east since 2012. Trade and public welcome.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs), { '@context': 'https://schema.org', '@type': 'AboutPage', url: `${BASE}/about/`, mainEntity: { '@id': `${BASE}/#business` } }] });
+  add({ path: '/about/', title: 'About Us | Surrey Hills Garden Supplies, Since 2012', description: 'Surrey Hills Garden Supplies is a garden, landscape and building supply yard on Canterbury Road, serving Melbourne\'s east since 2012. Trade and public.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs), { '@context': 'https://schema.org', '@type': 'AboutPage', url: `${BASE}/about/`, mainEntity: { '@id': `${BASE}/#business` } }] });
 })();
 
 /* BLOG */
@@ -600,7 +600,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
   const fmtDate = (d) => new Date(d + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
   const h = hero({ h1: 'Garden Supplies Blog', text: 'Plain advice from the yard on which mulch, sand and soil to use, and how to get a low-maintenance garden.', imgBase: 'mulch-02', imgAlt: 'Pine bark mulch', page: true, crumbs: true });
   const cards = posts.map(post => `<a class="card post-card reveal" href="/blog/${post.slug}/"><div class="card__media">${postImg(post, post.title)}</div><div class="card__body"><p class="post-meta">${fmtDate(post.date)}</p><h3>${esc(post.title)}</h3><p>${esc(post.excerpt)}</p><span class="card__link">Read more</span></div></a>`).join('');
-  add({ path: '/blog/', title: 'Blog | Mulch, Soil & Sand Advice | Surrey Hills Garden Supplies', description: 'Advice from Surrey Hills Garden Supplies on choosing mulch, sand and soil, kiln dried sand for synthetic grass, and low-maintenance gardens in Melbourne.', hero: h.html, preload: h.preload, body: `<section class="section"><div class="wrap"><div class="grid grid--3">${cards}</div></div></section>`, crumbs: [['Home', '/'], ['Blog', '/blog/']], schemas: [breadcrumb([['Home', '/'], ['Blog', '/blog/']])] });
+  add({ path: '/blog/', title: 'Blog | Mulch, Soil & Sand Advice | SHGS Surrey Hills', description: 'Advice from Surrey Hills Garden Supplies on choosing mulch, sand and soil, kiln dried sand for synthetic grass, and low-maintenance gardens in Melbourne.', hero: h.html, preload: h.preload, body: `<section class="section"><div class="wrap"><div class="grid grid--3">${cards}</div></div></section>`, crumbs: [['Home', '/'], ['Blog', '/blog/']], schemas: [breadcrumb([['Home', '/'], ['Blog', '/blog/']])] });
   for (const post of posts) {
     const crumbs = [['Home', '/'], ['Blog', '/blog/'], [post.title, `/blog/${post.slug}/`]];
     const rel = (post.relatedProducts || []).map(pth => products.find(p => prodPath(p) === pth)).filter(Boolean).slice(0, 3);
