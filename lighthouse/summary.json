@@ -1,0 +1,142 @@
+[
+  {
+    "page": "/",
+    "form": "mobile",
+    "performance": 96,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.5 s",
+    "cls": "0.006"
+  },
+  {
+    "page": "/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.6 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/mulch/",
+    "form": "mobile",
+    "performance": 98,
+    "accessibility": 94,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.3 s",
+    "cls": "0.03"
+  },
+  {
+    "page": "/mulch/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 93,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.6 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/mulch/10mm-pine-bark/",
+    "form": "mobile",
+    "performance": 80,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "5.3 s",
+    "cls": "0"
+  },
+  {
+    "page": "/mulch/10mm-pine-bark/",
+    "form": "desktop",
+    "performance": 99,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.9 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/areas/box-hill/",
+    "form": "mobile",
+    "performance": 99,
+    "accessibility": 94,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.1 s",
+    "cls": "0.022"
+  },
+  {
+    "page": "/areas/box-hill/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 94,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.5 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/calculator/",
+    "form": "mobile",
+    "performance": 98,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.2 s",
+    "cls": "0.009"
+  },
+  {
+    "page": "/calculator/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.5 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/contact/",
+    "form": "mobile",
+    "performance": 99,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.0 s",
+    "cls": "0"
+  },
+  {
+    "page": "/contact/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 95,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.5 s",
+    "cls": "0.001"
+  },
+  {
+    "page": "/blog/which-mulch-do-i-use-around-my-home/",
+    "form": "mobile",
+    "performance": 97,
+    "accessibility": 94,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "2.4 s",
+    "cls": "0"
+  },
+  {
+    "page": "/blog/which-mulch-do-i-use-around-my-home/",
+    "form": "desktop",
+    "performance": 100,
+    "accessibility": 93,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.5 s",
+    "cls": "0.001"
+  }
+]

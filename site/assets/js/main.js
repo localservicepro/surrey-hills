@@ -28,6 +28,7 @@
         entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
       }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
       reveals.forEach(function (el, i) { el.style.setProperty('--d', ((i % 4) * 0.08) + 's'); io.observe(el); });
+      setTimeout(function () { reveals.forEach(function (el) { el.classList.add('in'); }); }, 2500); /* safety net: never leave content hidden */
     }
   }
 

@@ -328,11 +328,12 @@ ${fulfilmentStrip()}
   <div class="section-head"><p class="eyebrow">Delivery areas</p><h2 id="areas-h">Bulk delivery across Melbourne's east</h2><p class="lede">Surrey Hills, Box Hill, Canterbury, Camberwell, Balwyn, Mont Albert, Blackburn, Burwood, Hawthorn, Kew, Doncaster, Glen Iris, Ashburton, Nunawading and Ringwood, usually in less than two hours.</p></div>
   ${suburbChips()}
 </div></section>`;
-  add({ path: '/', title: 'Garden Supplies Surrey Hills | Mulch, Soil, Sand & Rock', description: "Mulch, soil, sand, rock, cement, synthetic grass and building supplies in Surrey Hills. Bagged, bulk or BYO trailer. Delivered to Melbourne's east in under 2 hrs.", hero: h.html, preload: h.preload, body, calculator: true, schemas: [{ '@context': 'https://schema.org', '@type': 'WebSite', url: `${BASE}/`, name: biz.name }] });
+  add({ path: '/', title: 'Garden Supplies Surrey Hills | Mulch, Soil, Sand & Rock', description: "Mulch, soil, sand, rock, cement, synthetic grass and building supplies in Surrey Hills. Bagged, bulk or BYO trailer, delivered in under 2 hours.", hero: h.html, preload: h.preload, body, calculator: true, schemas: [{ '@context': 'https://schema.org', '@type': 'WebSite', url: `${BASE}/`, name: biz.name }] });
 })();
 function supplierStrip() {
   const items = [];
-  for (let i = 1; i <= 35; i++) { const r = resolveImg(`suppliers/supplier-${String(i).padStart(2, '0')}`); if (r) items.push(`<div class="logos__item"><img src="${r.src}" alt="Supplier logo ${i} {{SUPPLIER_NAME_${i}}}" loading="lazy" decoding="async" width="160" height="80"></div>`); }
+  const sup = fs.existsSync(path.join(root, 'data/suppliers.json')) ? D('suppliers.json').logos : [];
+  for (const s of sup) { const r = resolveImg(`suppliers/${s.file}`); if (r) items.push(`<div class="logos__item"><img src="${r.src}" alt="${esc(s.name)} logo" title="${esc(s.name)}" loading="lazy" decoding="async" width="160" height="80"></div>`); }
   if (!items.length) return `<div class="placeholder"><strong>Supplier logo strip.</strong> Placeholder until the client supplies the brand list ({{SUPPLIER_LIST}}). The current site shows 35 supplier logos; they are listed in PLACEHOLDERS.md for confirmation.</div>`;
   return `<div class="logos">${items.join('')}</div><p class="small muted" style="margin-top:.8rem">Logos carried over from the current website. Brand names to be confirmed by the client ({{SUPPLIER_LIST}}).</p>`;
 }
@@ -499,7 +500,7 @@ ${faqSection(s.faqs, `Delivery to ${s.name}`)}
   <p>Yard and delivery hours: {{HOURS}}.</p>
 </div></section>`;
   const crumbs = [['Home', '/'], ['Delivery', '/delivery/']];
-  add({ path: '/delivery/', title: 'Delivery Zones & Minimums | Surrey Hills Garden Supplies', description: 'How bulk delivery works from Surrey Hills Garden Supplies: zones across Melbourne\'s east, truck sizes, minimums, pickup and BYO trailer. Under 2 hrs locally.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs)] });
+  add({ path: '/delivery/', title: 'Delivery Zones & Minimums | Surrey Hills Garden Supplies', description: 'How bulk delivery works from Surrey Hills Garden Supplies: zones across Melbourne\'s east, truck sizes, minimums, pickup and BYO trailer. Under 2 hrs.', hero: h.html, preload: h.preload, body, crumbs, schemas: [breadcrumb(crumbs)] });
 })();
 
 /* CALCULATOR */
