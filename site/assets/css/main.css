@@ -61,11 +61,12 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* ---------- Header ---------- */
 .header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.94); backdrop-filter: saturate(160%) blur(8px); border-bottom: 1px solid var(--c-line); }
 .header__in { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
-.logo { display: block; flex: 0 0 auto; }
+/* The logo artwork is green + WHITE (the "Garden Supplies" line is white), so it always sits on the dark neutral. */
+.logo { display: block; flex: 0 0 auto; background: var(--c-ink); border-radius: 8px; padding: 7px 14px; line-height: 0; }
 .logo img { width: 190px; height: auto; }
 .nav { display: none; }
 .nav ul { list-style: none; display: flex; gap: .2rem; margin: 0; padding: 0; }
-.nav a { display: block; padding: .5rem .55rem; font-family: var(--f-head); font-weight: 700; font-size: .98rem; color: var(--c-ink); text-decoration: none; border-radius: 6px; position: relative; }
+.nav a { display: block; white-space: nowrap; padding: .5rem .55rem; font-family: var(--f-head); font-weight: 700; font-size: .98rem; color: var(--c-ink); text-decoration: none; border-radius: 6px; position: relative; }
 .nav a::after { content: ""; position: absolute; left: .55rem; right: .55rem; bottom: .25rem; height: 2px; background: var(--c-green); transform: scaleX(0); transform-origin: left; transition: transform .3s var(--ease); }
 .nav a:hover::after, .nav a[aria-current="page"]::after { transform: scaleX(1); }
 .header__phone { display: none; }
@@ -87,7 +88,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .header__phone { display: block; }
   .burger, .header__call, .mobile-nav { display: none !important; }
 }
-@media (min-width: 1080px) and (max-width: 1240px) { .nav a { font-size: .9rem; padding: .5rem .4rem; } .logo img { width: 160px; } }
+@media (min-width: 1080px) and (max-width: 1440px) { .nav a { font-size: .88rem; padding: .5rem .38rem; } .logo img { width: 140px; } .logo { padding: 6px 10px; } .header__phone .btn { font-size: .95rem; padding: .55rem .9rem; } }
 
 /* ---------- Mobile bottom bar ---------- */
 .bottombar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; display: grid; grid-template-columns: 1fr 1fr 1fr; background: var(--c-ink); border-top: 1px solid var(--c-ink-3); padding-bottom: env(safe-area-inset-bottom, 0); }
@@ -231,7 +232,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (min-width: 760px) { .footer__grid { grid-template-columns: 1.3fr 1fr 1fr 1fr; } }
 .footer h3 { color: #fff; font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .8rem; }
 .footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
-.logo-tile { display: inline-block; background: #fff; border-radius: 10px; padding: 10px 14px; margin-bottom: 1rem; }
+.logo-tile { display: inline-block; background: var(--c-ink-2); border-radius: 10px; padding: 10px 14px; margin-bottom: 1rem; line-height: 0; }
 .logo-tile img { width: 200px; height: auto; }
 .footer address { font-style: normal; line-height: 1.7; }
 .footer__social { display: flex; gap: .6rem; margin-top: .8rem; }

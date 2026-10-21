@@ -60,7 +60,7 @@ Every product's `prices` object in `data/products.json` is `null`, which renders
 | Bluestone grey | `#7E7A72` / `#494741` | sampled from Bluestone.jpeg |
 | Scoria | `#997668` | sampled from Scoria3-1.jpeg |
 
-All in `assets/css/tokens.css`. The logo is placed on white (header) and in a white rounded tile on the dark footer; it is never recoloured, stretched or cropped. Favicon and touch icons crop the palm icon only.
+All in `assets/css/tokens.css`. **Logo placement note:** the brief assumed the logo could sit on white, but the "GARDEN SUPPLIES" line of the artwork is white, so on a white background it disappears. The logo therefore sits on a dark-neutral rounded tile in the header and on the dark footer; it is never recoloured, stretched or cropped. If the client has a version of the logo with a dark second line, drop it in `assets/img/logo/` and the header tile can go back to white. Favicon and touch icons crop the palm icon only.
 
 ## 5. Generated images (Higgsfield, nano_banana_pro) — replace with real photos
 
